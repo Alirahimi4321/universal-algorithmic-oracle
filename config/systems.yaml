@@ -1,0 +1,658 @@
+# Symbolic Systems Configuration - matches document sections 9.1-9.5
+# All entries must match SYSTEM_ID in their wrapper class
+systems:
+  # 9.1 Astrological & Calendrical
+  astrology_western:
+    enabled: true
+    backend: "pyswisseph"
+    features: [planetary_positions, angular_relations, house_distribution, zodiac_degrees]
+    mutation_space:
+      zodiac_partition: [12, 13, 24, 36]
+      aspect_threshold: "mutable"
+      house_system: "mutable"
+
+  astrology_vedic:
+    enabled: true
+    backend: "pyswisseph"
+    features: [nakshatra, tithi, yoga, karana, dasha, panchanga]
+    mutation_space:
+      nakshatra_count: [27, 28, 54]
+      dasha_rule: "evolvable"
+
+  astrology_kerykeion:
+    enabled: true
+    backend: "kerykeion"
+    features: [planetary_positions, houses, aspects, zodiac]
+
+  skyfield_astro:
+    enabled: true
+    backend: "skyfield"
+    features: [planetary_positions, moon_phase, aspects, eclipses]
+
+  yaegi_kundali:
+    enabled: true
+    backend: "yaegi"
+    features: [kundali, planetary_positions, houses]
+
+  yaegi_panchang:
+    enabled: true
+    backend: "yaegi"
+    features: [tithi, nakshatra, yoga, karana]
+
+  astral:
+    enabled: true
+    backend: "astral"
+    features: [solar_position, lunar_phase, twilight, sunrise_sunset]
+
+  ephem:
+    enabled: true
+    backend: "ephem"
+    features: [planetary_positions, lunar_phase, eclipses, retrogrades]
+
+  falak:
+    enabled: true
+    backend: "falakpy"
+    features: [planetary_positions, astrological_chart, houses]
+
+  vedastro:
+    enabled: true
+    backend: "vedastro"
+    features: [planetary_positions, nakshatra, tithi, yoga]
+
+  ketu_astronomy:
+    enabled: true
+    backend: "ketu"
+    features: [ephemeris_calculation, planetary_positions]
+
+  # 9.1.3 Calendrical
+  calendar:
+    enabled: true
+    backends: [jdatetime, hijridate, persiantools]
+    features: [jalali_date, hijri_date, gregorian_date, ritual_time]
+
+  lunar_calendar:
+    enabled: true
+    backend: "lunar-python"
+    features: [lunar_date, heavenly_stems, earthly_branches, festivals]
+
+  hijri_calendar:
+    enabled: true
+    backend: "hijridate"
+    features: [hijri_date, islamic_month, islamic_day]
+
+  jalali_calendar:
+    enabled: true
+    backend: "jdatetime"
+    features: [jalali_date, solar_month, solar_day]
+
+  jalali_core:
+    enabled: true
+    backend: "jalali_core"
+    features: [persian_calendar, solar_date, lunar_date]
+
+  sxtwl:
+    enabled: true
+    backend: "sxtwl"
+    features: [chinese_calendar, heavenly_stems, earthly_branches]
+
+  # 9.2 Gematria & Numerology
+  gematria:
+    enabled: true
+    backend: "abnum"
+    features: [word_value, sentence_value, digit_sum, modular_residue, letter_position_vector]
+    mutation_space:
+      modulus: [7, 9, 12, 22, 28, 64, 72, 108]
+      alphabet_mapping: "evolvable"
+
+  hebrew_gematria:
+    enabled: true
+    backend: "hebrew"
+    features: [standard, simple, ordinal, reduced]
+
+  hebrew_gematria_advanced:
+    enabled: true
+    backend: "hebrew"
+    features: [standard, simple, ordinal, reduced, integral, expanded]
+    mutation_space:
+      gematria_types: "evolvable"
+
+  english_gematria:
+    enabled: true
+    backend: "abnum"
+    features: [english_standard, english_simple, english_ordinal]
+
+  numerology:
+    enabled: true
+    backend: "internal"
+    features: [life_path_like_number, name_number, cyclic_digit_reduction, compound_number]
+    mutation_space:
+      reduction_base: [7, 9, 10, 12, 22]
+
+  figurate_plane:
+    enabled: true
+    backend: "figuratenum"
+    features: [triangular, square, pentagonal, hexagonal]
+
+  figurate_space:
+    enabled: true
+    backend: "figuratenum"
+    features: [tetrahedral, octahedral, icosahedral]
+
+  romanize:
+    enabled: true
+    backend: "romanize3"
+    features: [script_romanization, phonetic_mapping]
+
+  # 9.3 Geomancy & Sortilege
+  geomancy:
+    enabled: true
+    backend: "internal"
+    features: [figures, binary_patterns, houses, judge]
+    mutation_space:
+      figure_count: [16, 24, 32, 64]
+      line_count: [4, 5, 6, 8]
+
+  iching:
+    enabled: true
+    backend: "ichingpy"
+    features: [hexagram, changing_lines, binary_code, trigram_pair]
+    mutation_space:
+      line_count: [6, 7, 8, 10]
+      state_count: [64, 128, 256, 1024]
+
+  iching_shifa:
+    enabled: true
+    backend: "ichingshifa"
+    features: [hexagram, najia, changing_lines]
+
+  iching_lib:
+    enabled: true
+    backend: "iching"
+    features: [hexagram, yao_values, changing_lines]
+
+  sixline:
+    enabled: true
+    backend: "divicast"
+    features: [hexagram, binary_pattern, trigram_pair, changing_lines]
+    mutation_space:
+      line_count: [6, 8, 10]
+      state_count: [64, 128, 256]
+
+  raml:
+    enabled: true
+    backend: "internal"
+    features: [figures, houses, judge]
+
+  hafez:
+    enabled: true
+    backend: "hafez"
+    features: [poem_divination, omen_interpretation]
+
+  # 9.4 Tarot, Cartomancy, Runes
+  tarot:
+    enabled: true
+    backend: "internal"
+    features: [card_id, arcana_type, suit, rank, orientation, spread_position]
+    mutation_space:
+      deck_size: [22, 56, 78, 96, 108]
+
+  tarot_oracle:
+    enabled: true
+    backend: "tarot-oracle"
+    features: [card, position, reversed, meaning]
+
+  ai_tarot:
+    enabled: true
+    backend: "ai-divination-skills"
+    features: [card, spread, position]
+
+  ai_iching:
+    enabled: true
+    backend: "ai-divination-skills"
+    features: [hexagram, changing_lines]
+
+  ai_xiaoliuren:
+    enabled: true
+    backend: "ai-divination-skills"
+    features: [hexagram, hour, plate]
+
+  runes:
+    enabled: true
+    backend: "riimut"
+    features: [symbol_sequence, phonetic_value, ordinal_value]
+
+  lenormand:
+    enabled: true
+    backend: "internal"
+    features: [card_id, meaning, combination]
+
+  # 9.5 Eastern Metaphysics
+  bazi:
+    enabled: true
+    backend: "iztro-py"
+    features: [heavenly_stems, earthly_branches, five_elements, bazi_pillars]
+
+  ziwei:
+    enabled: true
+    backend: "iztro-py"
+    features: [ziwei_stars, palaces, five_elements]
+
+  qimen:
+    enabled: true
+    backend: "cnlunar"
+    features: [qimen_doors, celestial_stems, earthly_branches]
+
+  tianji_bazi:
+    enabled: true
+    backend: "tianji"
+    features: [bazi_chart, four_pillars]
+
+  tianji_ziwei:
+    enabled: true
+    backend: "tianji"
+    features: [ziwei_chart, stars, palaces]
+
+  tianji_qimen:
+    enabled: true
+    backend: "tianji"
+    features: [qimen_chart, doors, stems]
+
+  tianji_liuren:
+    enabled: true
+    backend: "tianji"
+    features: [liuren_plate, six_renyu]
+
+  korean_saju:
+    enabled: true
+    backend: "internal"
+    features: [four_pillars, elements, ten_stems]
+
+  # 9.5.2 Mayan Calendars
+  tzolkin:
+    enabled: true
+    backend: "tzolkin-calendar"
+    features: [tzolkin_day, tone, sign]
+    mutation_space:
+      cycle_length: [13, 20, 260, 365]
+
+  long_count:
+    enabled: true
+    backend: "internal"
+    features: [baktun, katun, tun, uinal, kin]
+
+  pohualli_calendar:
+    enabled: true
+    backend: "pohualli"
+    features: [tzolkin, haab, long_count]
+
+  mayacal:
+    enabled: true
+    backend: "mayacal"
+    features: [long_count, calendar_round, tzolkin, haab]
+
+  # 9.5.3 Dreams
+  dream_symbols:
+    enabled: true
+    backend: "internal"
+    features: [archetype_tokens, emotion_signature, dream_entities]
+
+  # Fortune Telling Core
+  fortune_telling_core:
+    enabled: true
+    backend: "fortune-telling-core"
+    features: [tradition, reading, interpretation]
+
+  # Flatlib astrology (swisseph direct)
+  flatlib_astrology:
+    enabled: true
+    backend: "flatlib+swisseph"
+    features: [planetary_positions, houses, aspects, zodiac_signs]
+
+  # Ndastro Engine Vedic
+  ndastro_vedic:
+    enabled: true
+    backend: "ndastro_engine"
+    features: [vedic_planets, nakshatra, rasi, planetary_positions]
+
+  # Libephemeris
+  libephemeris_astrology:
+    enabled: true
+    backend: "libephemeris"
+    features: [planetary_positions, ecliptic_coordinates, aspects]
+
+  # Ogham
+  ogham:
+    enabled: true
+    backend: "ogham"
+    features: [ogham_encoding, ogham_decoding, letter_values]
+
+  # OpenDivination I Ching
+  opendivination_iching:
+    enabled: true
+    backend: "opendivination"
+    features: [hexagram, changing_lines, provenance, three_methods]
+
+  # Arcanite Tarot
+  arcanite_tarot:
+    enabled: true
+    backend: "arcanite"
+    features: [tarot_deck, spread_layouts, card_positions]
+
+  # Stellium Astrology (full chart with planets/aspects)
+  stellium_astrology:
+    enabled: true
+    backend: "stellium"
+    features: [planets, aspects, houses, zodiac_signs, element_analysis]
+
+  # Jyotish Ganit Vedic
+  jyotishganit_vedic:
+    enabled: true
+    backend: "jyotishganit"
+    features: [birth_chart, planetary_positions, houses, nakshatra]
+
+  # Gematria Engine (multi-system)
+  gematria_engine:
+    enabled: true
+    backend: "gematria_engine"
+    features: [multi_system_gematria, numerology, letter_values]
+
+  # Hebrew Numbers
+  hebrew_numbers:
+    enabled: true
+    backend: "hebrew_numbers"
+    features: [gematria_value, letter_mapping, biblical_reference]
+
+  # Tarot Card Meanings
+  tarot_card_meanings:
+    enabled: true
+    backend: "tarot_card_meanings"
+    features: [card_meanings, upright_reversed, element_association, astrology_link]
+
+  # Lunar MCP (Chinese lunar calendar)
+  lunar_mcp:
+    enabled: true
+    backend: "zhdate"
+    features: [lunar_date, chinese_month, chinese_day, festivals]
+
+  # Persian Text Processing
+  proces_text:
+    enabled: true
+    backend: "proces"
+    features: [text_normalization, persian_processing, character_analysis]
+
+  # Purple Star (Ziwei Doushu) Astrology
+  purplestar:
+    enabled: true
+    backend: "purplestar"
+    features: [ziwei_chart, palaces, stars, five_elements, life_master]
+
+  # Rokh Calendar Events
+  rokh_events:
+    enabled: true
+    backend: "rokh"
+    features: [jalali_events, hijri_events, gregorian_events, calendar_occasions]
+
+  # Numero Fun Numerology
+  numero_fun:
+    enabled: true
+    backend: "numero_fun"
+    features: [letter_to_number, calculate_number, digit_sum, numerology]
+
+  # Sigillin Sigil Processing
+  sigillin_sigil:
+    enabled: true
+    backend: "sigillin"
+    features: [sigil_creation, mandala_rendering, symbolic_processing]
+
+  # Grapheme Unicode Analysis
+  grapheme_analysis:
+    enabled: true
+    backend: "grapheme"
+    features: [grapheme_clusters, unicode_analysis, text_decomposition]
+
+  # Syntropy Information Theory
+  syntropy_info:
+    enabled: true
+    backend: "syntropy"
+    features: [shannon_entropy, mutual_information, complexity_measures]
+
+  # PyTarot Divination
+  pytarot:
+    enabled: true
+    backend: "pytarot"
+    features: [answers_of_wisdom, lucky_day, positive_action, true_lover]
+
+  # MayaCalendar Extended
+  mayacalendar_ext:
+    enabled: true
+    backend: "mayacalendar"
+    features: [long_count, tzolkin, haab, baktun, katun]
+
+  # spaCy NLP
+  spacy_nlp:
+    enabled: true
+    backend: "spacy"
+    features: [ner, noun_chunks, pos_tags, sentence_count]
+
+  # Sentence Transformers
+  sentence_transformers:
+    enabled: true
+    backend: "sentence-transformers"
+    features: [embedding_vector, semantic_similarity]
+
+  # Language Detection
+  langdetect_nlp:
+    enabled: true
+    backend: "langdetect"
+    features: [language_detection, confidence_scores]
+
+  # Taiyi Shenshu (太乙神數) - One of the Three Great Chinese Divination Systems
+  kintaiyi:
+    enabled: true
+    backend: "kintaiyi"
+    features: [taiyi_pan, ji_yuan, ju_shi, ba_gong, eight_doors, sky_earth_plates]
+    mutation_space:
+      ji_style: [0, 1, 2, 3]
+      acum_style: [0, 1, 2, 3]
+
+  # Da Liu Ren (大六壬) - One of the Three Great Chinese Divination Systems
+  kinliuren:
+    enabled: true
+    backend: "kinliuren"
+    features: [three_pass, four_ke, sky_earth_plate, twelve_generals, geju]
+    mutation_space:
+      jieqi_index: [0, 11]
+      cmonth: [1, 12]
+
+  # Chinese Lunar Calendar with BaZi
+  lunar_python:
+    enabled: true
+    backend: "lunar_python"
+    features: [lunar_date, bazi, wuxing, animal, nayin, shensha, chong_sha]
+    mutation_space:
+      year_pillar: [1, 60]
+      month_pillar: [1, 12]
+
+  # Natal Chart (Western Astrology with Swiss Ephemeris)
+  nataly_natal:
+    enabled: true
+    backend: "nataly"
+    features: [planetary_positions, signs, houses, retrogrades, declinations, dignities]
+    mutation_space:
+      planet_positions: "mutable"
+      house_system: ["placidus", "koch", "equal", "whole_sign"]
+
+  # PyJHora Vedic Astrology
+  pyjhora_vedic:
+    enabled: true
+    backend: "jhora"
+    features: [panchanga, planetary_positions, dasha, nakshatra]
+    mutation_space:
+      ayanamsa: ["lahiri", "raman", "kp"]
+
+  # Khayyam Persian/Jalali Calendar
+  khayyam_jalali:
+    enabled: true
+    backend: "khayyam"
+    features: [jalali_date, weekday, day_of_year]
+    mutation_space:
+      calendar_system: ["jalali", "gregorian"]
+
+  # LunarCalendar Chinese Lunar
+  lunarcalendar:
+    enabled: true
+    backend: "lunarcalendar"
+    features: [lunar_date, leap_year, converter]
+    mutation_space:
+      year_range: [1900, 2100]
+
+  # Tarot Oracle AI
+  tarot_oracle_ai:
+    enabled: true
+    backend: "tarot-oracle"
+    features: [ai_interpretation, spread_reading, semantic_analysis]
+    mutation_space:
+      spread_type: ["single", "three_card", "celtic_cross"]
+
+  # Tarot Card Meanings Database
+  tarot_meanings_db:
+    enabled: true
+    backend: "tarot-card-meanings"
+    features: [card_meanings, suit_lookup, keywords]
+    mutation_space:
+      card_index: [0, 77]
+
+  # Virtual Observatory (PyVO)
+  pyvo_astro:
+    enabled: true
+    backend: "pyvo"
+    features: [conesearch, sia, ssa, tap, service_registry]
+    mutation_space:
+      query_radius: [1, 3600]
+
+  # === NEW CIVILIZATION WRAPPERS ===
+
+  # Chinese Number Conversion (cn2an)
+  cn2an:
+    enabled: true
+    backend: "cn2an"
+    features: [cn2an, an2cn, transform, digit_sum]
+    mutation_space:
+      input_type: ["text", "number"]
+
+  # Chinese Lunar Calendar (cnlunar)
+  cnlunar:
+    enabled: true
+    backend: "cnlunar"
+    features: [lunar_date, ganzhi, shengxiao, solar_term]
+    mutation_space:
+      year_range: [1900, 2100]
+
+  # Chinese Zodiac Date (zhdate)
+  zhdate:
+    enabled: true
+    backend: "zhdate"
+    features: [lunar_date, zodiac, ganzhi_year]
+    mutation_space:
+      year_range: [1900, 2100]
+
+  # Chinese Calendar (holidays + solar terms)
+  chinese_calendar:
+    enabled: true
+    backend: "chinese_calendar"
+    features: [holidays, workdays, solar_terms, is_holiday]
+    mutation_space:
+      month_range: [1, 12]
+
+  # Korean Zi Wei Dou Shu (iztro_py)
+  iztro_ziwei:
+    enabled: true
+    backend: "iztro_py"
+    features: [ziwei_chart, palaces, main_star, life_palace, zodiac, sign]
+    mutation_space:
+      gender: ["male", "female"]
+
+  # Norse Runes (riimut)
+  norse_runes:
+    enabled: true
+    backend: "riimut"
+    features: [elder_futhark, younger_futhark, futhorc, medieval_futhork, staveless]
+    mutation_space:
+      rune_system: ["elder_futhark", "younger_futhark", "futhorc"]
+
+  # Persian Calendar (persiantools)
+  persian_calendar:
+    enabled: true
+    backend: "persiantools"
+    features: [jalali_date, persian_digits, month_name]
+    mutation_space:
+      year_range: [1300, 1500]
+
+  # === ADDITIONAL CIVILIZATION WRAPPERS ===
+
+  # Chinese Meihua (Plum Blossom) Divination
+  meihua_yishu:
+    enabled: true
+    backend: "meihua-yi"
+    features: [time_hexagram, coin_hexagram, ben_gua, bian_gua, moving_yao]
+    mutation_space:
+      method: ["time", "coin"]
+
+  # Korean Saju (Four Pillars) - sajupy
+  korean_saju_py:
+    enabled: true
+    backend: "sajupy"
+    features: [four_pillars, lunar_solar, solar_time_correction, ten_gods]
+    mutation_space:
+      city: ["Seoul", "Busan", "Incheon"]
+
+  # Hebrew Gematria (gematriapy)
+  gematriapy:
+    enabled: true
+    backend: "gematriapy"
+    features: [hebrew_gematria, bidirectional]
+    mutation_space:
+      input_type: ["hebrew", "english"]
+
+  # === NEWLY ADDED SYMBOLIC SYSTEMS ===
+
+  # TarotTeller — Full tarot deck with Celtic Cross, Three Card spreads
+  tarotteller:
+    enabled: true
+    backend: "tarotteller"
+    features: [card_meanings, reversed_meanings, spread_reading, keywords]
+    mutation_space:
+      spread: ["single", "three_card", "celtic_cross"]
+
+  # ZiWei Stars — Chinese Zi Wei Dou Shu star calculations
+  ziwei_stars:
+    enabled: true
+    backend: "ziwei_cli"
+    features: [major_stars, minor_stars, soul_body, palace_names, lunar_date]
+    mutation_space:
+      time_index: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+      gender: ["male", "female"]
+
+  # CLI Tarot — Simple tarot card meanings database
+  cli_tarot:
+    enabled: true
+    backend: "cli_tarot"
+    features: [card_meanings, keyword_extraction]
+    mutation_space:
+      card_index: [0, 77]
+
+  # Hebrew Gematria — gematria from `hebrew` library
+  hebrew_gematria:
+    enabled: true
+    backend: "hebrew"
+    features: [gematria_value, word_count, letter_count, digital_root]
+    mutation_space:
+      text: "mutable"
+
+  # PyGematria — Multi-system gematria (Hebrew, Greek, Agrippa, English Qaballa)
+  pygematria:
+    enabled: true
+    backend: "pygematria"
+    features: [multi_system_gematria, value_reduction]
+    mutation_space:
+      system: ["hebrew", "greek", "agrippa", "english_qaballa", "rudolff"]

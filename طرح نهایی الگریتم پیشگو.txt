@@ -1,0 +1,2563 @@
+تمام تغییرات درخواستی شما با دقت روی سند اصلی اعمال شده است. خروجی نهایی، سند معماری یکپارچه و به‌روزرسانی‌شده **Universal Algorithmic Oracle** است که اکنون شامل لایه ارزیابی عینی جدید با آزمون‌های آنتروپی خالص و کور تاریخی می‌شود.
+
+---
+
+# 📘 Universal Algorithmic Oracle  
+## سند معماری جامع و یکپارچه پژوهشی  
+### تلفیق معماری پایه + درخت کتابخانه‌های تکاملی + درخت کتابخانه‌های علوم باستانی/نمادین
+
+---
+
+## 0. نکته بنیادین پروژه
+
+این پروژه نباید به یک «شبیه‌ساز فال»، «موتور تفسیر سنتی»، یا «نمایشگر نمادهای کلاسیک» تقلیل پیدا کند.
+
+هدف اصلی پروژه این است:
+
+> طراحی یک آزمایشگاه تکاملی برای کشف، تولید، ترکیب و آزمون ساختارهای محاسباتی نمادین که بتوانند به‌صورت پژوهشی مدعی تولید پاسخ‌های آینده‌نگرانه، غیب‌گویانه یا پیشگویانه باشند.
+
+بنابراین:
+
+- کتابخانه‌های علوم باستانی فقط «منبع خام نمادین و محاسباتی» هستند.
+- الگوریتم‌های ژنتیک فقط «موتور جستجو و تکامل» هستند.
+- خروجی سنتی کتابخانه‌ها هدف نهایی نیست.
+- هدف نهایی، کشف ساختارهای جدید، ناشناخته، ترکیبی و فراتاریخی است.
+- سیستم باید بتواند از سنت‌ها عبور کند، آن‌ها را بشکند، گسترش دهد، ترکیب کند و ساختارهای تازه بسازد.
+
+---
+
+# 1. نام پروژه
+
+## Universal Algorithmic Oracle  
+### Adaptive Evolutionary Engine for Symbolic Future Inference
+
+یا به فارسی:
+
+## اوراکل الگوریتمی جهان‌شمول  
+### موتور تکاملی کشف الگوریتم‌های نمادین پیشگویی آینده
+
+---
+
+# 2. تعریف رسمی پروژه
+
+این پروژه یک چارچوب پژوهشی-مهندسی برای ساخت، تکامل و ارزیابی الگوریتم‌های پیشگویی عمومی است که با ترکیب سیستم‌های محاسباتی نمادین تمدن‌های مختلف، الگوریتم‌های جدیدی برای پاسخ‌گویی به پرسش‌های آینده تولید می‌کند.
+
+---
+
+# 3. بیانیه مأموریت
+
+هدف پروژه، طراحی و پیاده‌سازی یک آزمایشگاه تکاملی است که بتواند:
+
+1. پرسش‌های مربوط به آینده را دریافت کند.
+2. آن‌ها را به آنتروپی قابل پردازش تبدیل کند.
+3. از سیستم‌های نمادین باستانی، تقویمی، عددی، اخترشناختی، حروفی، باینری و آیینی به‌عنوان مواد خام محاسباتی استفاده کند.
+4. با استفاده از الگوریتم‌های ژنتیک، برنامه‌نویسی ژنتیک، تکامل چندهدفه و فراابتکاری، ساختارهای جدید پیشگویی بسازد.
+5. ساختارهای موفق را در حافظه بین‌نسلی ذخیره کند.
+6. مسیرهای تکاملی مؤثر را توسعه دهد.
+7. خروجی‌هایی تولید کند که نه صرفاً تفسیر سنتی، بلکه حاصل یک ساختار محاسباتی تکامل‌یافته باشند.
+
+---
+
+# 4. اصل تفکیک حیاتی پروژه
+
+## 4.1 چیزی که پروژه نیست
+
+این پروژه نباید صرفاً موارد زیر باشد:
+
+- شبیه‌ساز تاروت
+- شبیه‌ساز ای‌چینگ
+- محاسبه‌گر ابجد
+- محاسبه‌گر زایچه
+- مولد فال تصادفی
+- موتور تفسیر متنی سنتی
+- چت‌بات معنوی
+- ترکیب ساده چند کتابخانه آماده
+
+## 4.2 چیزی که پروژه هست
+
+این پروژه باید یک موتور اکتشافی باشد برای:
+
+- ساخت الگوریتم‌های جدید
+- جهش ساختارهای نمادین
+- ترکیب تمدن‌های مختلف
+- عبور از قواعد سنتی
+- خلق فضای جستجوی جدید
+- سنجش پایداری، انسجام، همگرایی و توان پاسخ‌دهی ساختارها
+- تولید «اوراکل‌های تکامل‌یافته»
+
+---
+
+# 5. تعریف مسئله
+
+پرسش اصلی پژوهش:
+
+> آیا می‌توان با ترکیب، جهش، تکامل و بازآفرینی سیستم‌های محاسباتی نمادین تمدن‌های مختلف، ساختارهایی تولید کرد که مدعی پاسخ‌گویی آینده‌نگرانه باشند؟
+
+تعریف مهندسی:
+
+| بخش | تعریف |
+|---|---|
+| ورودی | پرسش درباره آینده، زمان، شخص، رخداد، مسیر یا تصمیم |
+| تبدیل اولیه | تبدیل پرسش به آنتروپی خام |
+| فضای جستجو | سیستم‌های نمادین باستانی + نسخه‌های جهش‌یافته آن‌ها |
+| موتور جستجو | GA، GP، MOEA، ES، DE، Swarm، Metaheuristics |
+| خروجی میانی | ساختار پیشگویانه تکامل‌یافته |
+| خروجی نهایی | پاسخ نمادین، عددی، ساختاری و تفسیری |
+| حافظه | آرشیو بین‌نسلی ساختارها، جهش‌ها و نتایج |
+
+---
+
+# 6. اصول فلسفی-سیستمی پروژه
+
+---
+
+## 6.1 عدم وابستگی به داده تاریخی کلاسیک
+
+سیستم نباید مبتنی بر موارد زیر باشد:
+
+- سری زمانی تاریخی
+- دیتاست‌های رویدادی گذشته
+- تحلیل آماری مرسوم
+- پیش‌بینی کلاسیک مبتنی بر روند
+- مدل‌های یادگیری ماشین صرفاً داده‌محور
+
+در این پروژه، ورودی اصلی «آنتروپی نمادین» است، نه داده تاریخی.
+
+---
+
+## 6.2 پردازش آنتروپی
+
+پرسش کاربر به‌عنوان منبع خام آنتروپی تلقی می‌شود.
+
+ورودی‌هایی مثل:
+
+- متن پرسش
+- زمان پرسش
+- تاریخ
+- مکان
+- عددهای همراه پرسش
+- نام‌ها
+- نیت
+- شناسه کاربر
+- پارامترهای اختیاری
+
+به ساختارهای قابل پردازش تبدیل می‌شوند.
+
+مثلاً:
+
+```python
+EntropyPacket = {
+    "raw_question": "...",
+    "normalized_text": "...",
+    "timestamp": "...",
+    "calendar_views": {...},
+    "hash_stream": [...],
+    "bit_stream": [...],
+    "numeric_vector": [...],
+    "symbolic_matrix": [...],
+    "seed": ...
+}
+```
+
+---
+
+## 6.3 تکامل آزاد ساختارها
+
+ساختارهای نمادین مجازند:
+
+- ترکیب شوند
+- شکسته شوند
+- قواعدشان تغییر کند
+- ابعادشان افزایش یابد
+- تعداد حالاتشان تغییر کند
+- ترتیب اجرا عوض شود
+- قواعد جدید تولید شود
+- به ساختارهای ناشناخته تبدیل شوند
+
+مثلاً:
+
+- ای‌چینگ از ۶۴ هگزاگرام به ۱۰۲ حالت جهش پیدا کند.
+- ژئومانسی از ۱۶ شکل به یک فضای چندبعدی تبدیل شود.
+- ابجد با موقعیت سیارات ترکیب شود.
+- بَزی با تاروت و تقویم مایا ادغام شود.
+- زایچه نجومی فقط ورودی عددی به یک گراف ژنتیکی باشد، نه تفسیر نهایی.
+
+---
+
+## 6.4 حافظه تکاملی
+
+پروژه باید حافظه داشته باشد، زیرا بدون حافظه، تکامل واقعی رخ نمی‌دهد.
+
+حافظه باید ذخیره کند:
+
+- ساختارهای برتر
+- کروموزوم‌های موفق
+- مسیرهای جهش
+- خانواده‌های الگوریتمی
+- شکست‌های مهم
+- همگرایی‌ها
+- نواحی بی‌ثمر فضای جستجو
+- امضاهای نمادین پاسخ‌ها
+- تاریخچه fitness
+- نسخه‌های تکامل‌یافته wrapperها
+
+---
+
+## 6.5 عبور از تفسیر سنتی
+
+کتابخانه‌های علوم باستانی نباید مستقیماً پاسخ نهایی بدهند.
+
+بلکه باید به سه لایه تبدیل شوند:
+
+1. **لایه محاسبات خام**
+2. **لایه نمادین استاندارد**
+3. **لایه قابل تکامل**
+
+مثلاً خروجی تاروت نباید فقط «معنی کارت» باشد؛ بلکه باید به بردار، گراف، وزن، تضاد، جهت، وضعیت و ویژگی ساختاری تبدیل شود.
+
+---
+
+# 7. معماری کلان سیستم
+
+```text
+┌────────────────────────────────────────────────────────────┐
+│                    Question Interface                       │
+│        متن، زمان، تاریخ، عدد، نام، نیت، زمینه پرسش          │
+└──────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│                    Entropy Encoder                         │
+│     Hashing, Bitstream, Numeric Vector, Symbolic Matrix     │
+└──────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│              Symbolic Substrate Layer                      │
+│     کتابخانه‌های علوم باستانی، تقویمی، عددی، نمادین         │
+└──────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│              Standardized Divination API                   │
+│     Wrapperها، نرمال‌سازی خروجی، تبدیل به state/feature     │
+└──────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│                  Evolutionary Core                         │
+│ GA / GP / MOEA / ES / DE / Swarm / Metaheuristics           │
+└──────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│                Oracle Structure Generator                  │
+│       تولید گراف/درخت/برنامه پیشگویی تکامل‌یافته            │
+└──────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│                    Evaluation Layer                        │
+│ انسجام، پایداری، همگرایی، تنوع، پیچیدگی، نوآوری، آزمون‌پذیری │
+└──────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│                  Evolutionary Memory                       │
+│      آرشیو ساختارها، lineage، جهش‌ها، fitness، گراف‌ها       │
+└──────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│                    Oracle Output                           │
+│ پاسخ نمادین، برداری، ساختاری، توضیح مسیر، confidence داخلی │
+└────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# 8. لایه‌های اصلی معماری
+
+---
+
+# 8.1 Question Interface Layer
+
+## وظایف
+
+- دریافت پرسش
+- تشخیص نوع پرسش
+- نرمال‌سازی متن
+- استخراج پارامترهای زمانی
+- استخراج نشانه‌های عددی
+- استخراج زمینه معنایی
+- تولید بسته اولیه پرسش
+
+## نمونه ورودی
+
+```python
+QuestionInput = {
+    "question": "آیا مسیر شغلی من در شش ماه آینده تغییر می‌کند؟",
+    "datetime": "2026-06-18T14:30:00",
+    "timezone": "Asia/Tehran",
+    "location": {
+        "lat": 35.6892,
+        "lon": 51.3890
+    },
+    "optional_numbers": [7, 23],
+    "domain": "career",
+    "horizon": "6_months"
+}
+```
+
+---
+
+# 8.2 Entropy Encoder
+
+این لایه ورودی انسانی را به ماده خام محاسباتی تبدیل می‌کند.
+
+## خروجی‌های اصلی
+
+```python
+EntropyPacket = {
+    "seed": 927361829,
+    "sha_stream": [...],
+    "bit_stream": [...],
+    "numeric_vector": [...],
+    "symbolic_tokens": [...],
+    "calendar_context": {...},
+    "question_signature": {...}
+}
+```
+
+## روش‌های تولید آنتروپی
+
+- hash متن پرسش
+- hash زمان پرسش
+- hash ترکیبی متن + زمان + مکان
+- تبدیل حروف به اعداد
+- استخراج طول کلمات
+- تبدیل تاریخ به چند تقویم
+- تولید بردارهای نمادین
+- تولید ماتریس باینری
+- تولید stream شبه‌تصادفی seed شده
+
+---
+
+# 8.3 Symbolic Substrate Layer
+
+این بخش مواد خام نمادین پروژه را فراهم می‌کند.
+
+اینجا همان جایی است که درخت کتابخانه‌های علوم باستانی وارد معماری می‌شود.
+
+اما نکته مهم:
+
+> این کتابخانه‌ها پاسخ نهایی تولید نمی‌کنند؛ آن‌ها «ماده خام محاسباتی و نمادین» برای تکامل هستند.
+
+---
+
+# 9. درخت یکپارچه کتابخانه‌های علوم باستانی در معماری پروژه
+
+---
+
+## 9.1 Astrological & Calendrical Systems
+
+### نقش در پروژه
+
+این خانواده برای استخراج ساختارهای زمانی، زاویه‌ای، سیاره‌ای، چرخه‌ای، تقویمی و کیهانی استفاده می‌شود.
+
+خروجی آن نباید فقط تفسیر زایچه باشد، بلکه باید به موارد زیر تبدیل شود:
+
+```python
+{
+    "planetary_positions": {...},
+    "angular_relations": {...},
+    "house_distribution": {...},
+    "calendar_cycles": {...},
+    "numeric_projection": [...],
+    "symbolic_state": {...},
+    "structural_features": {...}
+}
+```
+
+---
+
+## 9.1.1 نجوم غربی، هلنیستی و عمومی
+
+### کتابخانه‌ها
+
+- `pyswisseph`
+- `stellium`
+- `kerykeion`
+- `flatlib`
+- `immanuel-python`
+- `zodiacsign-calculator`
+- `ollama-astrology`
+
+### نقش دقیق
+
+| کتابخانه | نقش در پروژه |
+|---|---|
+| `pyswisseph` | موتور پایه محاسبات موقعیت سیارات و اجرام |
+| `kerykeion` | تولید ساختار چارت، خانه‌ها و aspectها |
+| `flatlib` | استخراج منطق سنتی و روابط احکامی |
+| `stellium` | تولید خروجی ساختاری مناسب برای پردازش AI |
+| `immanuel-python` | استخراج داده‌های چارت و آبجکت‌های نجومی |
+| `zodiacsign-calculator` | نگاشت ساده زمان به نشانه‌های زودیاک |
+| `ollama-astrology` | لایه اختیاری تفسیر/متن، نه هسته تصمیم |
+
+### استفاده تکاملی
+
+ژن‌های ممکن:
+
+```python
+AstrologyGene = {
+    "system": "western_astrology",
+    "backend": "pyswisseph",
+    "features": [
+        "planet_positions",
+        "aspects",
+        "houses",
+        "zodiac_degrees"
+    ],
+    "mutation_space": {
+        "zodiac_partition": [12, 13, 24, 36],
+        "aspect_threshold": "mutable",
+        "house_system": "mutable",
+        "planet_weighting": "evolvable"
+    }
+}
+```
+
+---
+
+## 9.1.2 نجوم هندو و ودایی
+
+### کتابخانه‌ها
+
+- `VedAstro.Python`
+- `PyJHora`
+- `pyhora2`
+- `jyotishganit`
+- `VedicAstro`
+- `drik-panchanga`
+- `Virgo-Py`
+
+### نقش دقیق
+
+| کتابخانه | نقش |
+|---|---|
+| `VedAstro.Python` | محاسبات گسترده ودایی |
+| `PyJHora` | کوندلی، موهورتا، پراشنا |
+| `pyhora2` | نسخه بهینه‌شده برای محاسبات هندی |
+| `jyotishganit` | ریاضیات پایه جیوتیش |
+| `VedicAstro` | تحلیل تکنیکی چارت |
+| `drik-panchanga` | استخراج پنچانگ و چرخه‌های روز |
+| `Virgo-Py` | بصری‌سازی و بررسی چارت |
+
+### استفاده تکاملی
+
+این خانواده می‌تواند به‌عنوان موتور چرخه‌ای/زمانی استفاده شود:
+
+```python
+VedicGene = {
+    "system": "vedic_astrology",
+    "features": [
+        "nakshatra",
+        "tithi",
+        "yoga",
+        "karana",
+        "dasha",
+        "panchanga"
+    ],
+    "mutation_space": {
+        "nakshatra_count": [27, 28, 54],
+        "dasha_rule": "evolvable",
+        "planet_strength_model": "mutable"
+    }
+}
+```
+
+---
+
+## 9.1.3 ابزارهای بومی‌سازی و زمان‌سنجی
+
+### کتابخانه‌ها
+
+- `hijridate`
+- `pyIslam`
+- `jdatetime`
+- `persiantools`
+- `roman`
+
+### نقش دقیق
+
+این‌ها برای تبدیل تاریخ و تولید نماهای چندتقویمی استفاده می‌شوند.
+
+```python
+CalendarGene = {
+    "system": "multi_calendar",
+    "backends": [
+        "jdatetime",
+        "hijridate",
+        "persiantools",
+        "pyIslam",
+        "roman"
+    ],
+    "features": [
+        "jalali_date",
+        "hijri_date",
+        "gregorian_date",
+        "ritual_time",
+        "roman_number_projection"
+    ]
+}
+```
+
+---
+
+# 9.2 Gematria & Numerology Systems
+
+---
+
+## 9.2.1 گماتریا، ابجد و ریاضیات حروف
+
+### کتابخانه‌ها
+
+- `abnum`
+- `gematria-engine`
+- `Abjad-Calculator`
+- `Hebrew`
+- `python-hebrew-numbers`
+- `gematria_calculator`
+- `English-Gematria-Calculator`
+
+### نقش در پروژه
+
+این خانواده، متن پرسش، نام‌ها، کلیدواژه‌ها و نیت‌ها را به ساختار عددی تبدیل می‌کند.
+
+خروجی استاندارد:
+
+```python
+{
+    "text": "...",
+    "systems": {
+        "abjad": 361,
+        "hebrew_gematria": 514,
+        "english_gematria": 228
+    },
+    "digit_features": [...],
+    "modular_features": {...},
+    "symbolic_state": {...}
+}
+```
+
+### استفاده تکاملی
+
+```python
+GematriaGene = {
+    "system": "gematria",
+    "backend": "abnum",
+    "alphabet_model": "arabic_hebrew_latin",
+    "features": [
+        "word_value",
+        "sentence_value",
+        "digit_sum",
+        "modular_residue",
+        "letter_position_vector"
+    ],
+    "mutation_space": {
+        "alphabet_mapping": "evolvable",
+        "letter_weights": "mutable",
+        "modulus": [7, 9, 12, 22, 28, 64, 72, 108]
+    }
+}
+```
+
+---
+
+## 9.2.2 Numerology
+
+### کتابخانه‌ها
+
+- `numerology`
+- `numero-fun`
+- `roxyapi/sdk-python`
+
+### نقش در پروژه
+
+عددشناسی به‌عنوان لایه تبدیل و فشرده‌سازی عددی استفاده می‌شود، نه تفسیر سنتی مستقیم.
+
+```python
+NumerologyGene = {
+    "system": "numerology",
+    "features": [
+        "life_path_like_number",
+        "name_number",
+        "cyclic_digit_reduction",
+        "compound_number"
+    ],
+    "mutation_space": {
+        "reduction_base": [7, 9, 10, 12, 22],
+        "compound_rules": "evolvable"
+    }
+}
+```
+
+---
+
+# 9.3 Geomancy & Sortilege Systems
+
+---
+
+## 9.3.1 رمل و ژئومانسی
+
+### کتابخانه‌ها
+
+- `practical_geomancy`
+- `geomancy`
+- `Geomantic`
+- `autogeo`
+
+### نقش در پروژه
+
+ژئومانسی به‌عنوان سیستم باینری/زوج-فرد بسیار مناسب برای تبدیل آنتروپی به ساختارهای گرافی است.
+
+خروجی استاندارد:
+
+```python
+{
+    "figures": [...],
+    "binary_patterns": [...],
+    "houses": {...},
+    "judge": "...",
+    "numeric_projection": [...],
+    "structural_features": {
+        "parity_balance": ...,
+        "symmetry": ...,
+        "figure_entropy": ...
+    }
+}
+```
+
+### استفاده تکاملی
+
+```python
+GeomancyGene = {
+    "system": "geomancy",
+    "figure_count": 16,
+    "line_count": 4,
+    "mutation_space": {
+        "figure_count": [16, 24, 32, 64],
+        "line_count": [4, 5, 6, 8],
+        "house_topology": "evolvable",
+        "judge_rule": "mutable"
+    }
+}
+```
+
+---
+
+## 9.3.2 I Ching
+
+### کتابخانه‌ها
+
+- `ichingpy`
+- `iching`
+- `py-ching`
+- `i_ching.py`
+- `divination`
+
+### نقش در پروژه
+
+ای‌چینگ یک فضای باینری شش‌خطی است و برای تکامل ساختارهای مبتنی بر بیت بسیار مهم است.
+
+```python
+IChingGene = {
+    "system": "iching",
+    "line_count": 6,
+    "state_count": 64,
+    "features": [
+        "hexagram",
+        "changing_lines",
+        "binary_code",
+        "trigram_pair",
+        "transition_hexagram"
+    ],
+    "mutation_space": {
+        "line_count": [6, 7, 8, 10],
+        "state_count": [64, 128, 256, 1024],
+        "trigram_logic": "evolvable",
+        "changing_line_rule": "mutable"
+    }
+}
+```
+
+---
+
+# 9.4 Tarot, Cartomancy, Runes & Ogham
+
+---
+
+## 9.4.1 Tarot Engines
+
+### کتابخانه‌ها
+
+- `python-tarot`
+- `tarot-card-meanings`
+- `Tarot-Reader`
+- `tarot-project`
+- `lenormand`
+- `tarotui`
+- `claude-tarot-skill`
+- `nonebot_plugin_tarot`
+
+### نقش در پروژه
+
+تاروت نباید فقط به متن تعبیر کارت‌ها محدود شود. در این پروژه، تاروت به گراف نمادین تبدیل می‌شود.
+
+```python
+TarotGene = {
+    "system": "tarot",
+    "deck_size": 78,
+    "features": [
+        "card_id",
+        "arcana_type",
+        "suit",
+        "rank",
+        "orientation",
+        "spread_position",
+        "semantic_vector",
+        "symbolic_polarity"
+    ],
+    "mutation_space": {
+        "deck_size": [22, 56, 78, 96, 108],
+        "spread_topology": "evolvable",
+        "orientation_states": [2, 4, 8],
+        "card_weighting": "mutable"
+    }
+}
+```
+
+---
+
+## 9.4.2 Runes & Ogham
+
+### کتابخانه‌ها
+
+- `riimut`
+- `ogham`
+
+### نقش در پروژه
+
+این خانواده برای تولید الفباهای نمادین، مسیرهای خطی، رمزگذاری نوشتاری و سیستم‌های نشانگانی استفاده می‌شود.
+
+```python
+RuneGene = {
+    "system": "runes_ogham",
+    "backends": ["riimut", "ogham"],
+    "features": [
+        "symbol_sequence",
+        "alphabet_family",
+        "phonetic_value",
+        "ordinal_value",
+        "tree_symbol"
+    ],
+    "mutation_space": {
+        "alphabet_size": [16, 18, 24, 25, 33],
+        "symbol_mapping": "evolvable",
+        "directionality": ["ltr", "rtl", "boustrophedon", "cyclic"]
+    }
+}
+```
+
+---
+
+# 9.5 Eastern Metaphysics, Chinese Systems, Mayan Calendars & Dreams
+
+---
+
+## 9.5.1 Chinese Metaphysics
+
+### کتابخانه‌ها
+
+- `lunar-python`
+- `bazi`
+- `iztro-py`
+- `kinqimen`
+- `qmenpowers`
+- `cnlunar`
+- `lunardate`
+- `chinese-calendar`
+- `lunar-mcp-server`
+- `baziapp`
+
+### نقش در پروژه
+
+این خانواده برای استخراج چرخه‌های زمانی، عناصر پنج‌گانه، شاخه‌ها، ساقه‌ها، چهار ستون، زی‌وی دوشو و چی‌من دون‌جیا به کار می‌رود.
+
+```python
+ChineseMetaphysicsGene = {
+    "system": "chinese_metaphysics",
+    "features": [
+        "heavenly_stems",
+        "earthly_branches",
+        "five_elements",
+        "bazi_pillars",
+        "ziwei_stars",
+        "qimen_doors",
+        "lunar_cycle"
+    ],
+    "mutation_space": {
+        "element_count": [5, 6, 8, 10],
+        "branch_count": [12, 24],
+        "stem_count": [10, 20],
+        "palace_topology": "evolvable"
+    }
+}
+```
+
+---
+
+## 9.5.2 Mayan Calendars
+
+### کتابخانه‌ها
+
+- `tzolkin-calendar`
+- `Maya-Calendar-Python-Package`
+- `Maya_Date-Converter`
+
+### نقش در پروژه
+
+تقویم مایا برای ایجاد چرخه‌های مقدس، شمارش‌های طولانی، چرخه‌های ۲۶۰ روزه و تبدیل زمان به امضای نمادین استفاده می‌شود.
+
+```python
+MayanGene = {
+    "system": "mayan_calendar",
+    "features": [
+        "tzolkin_day",
+        "haab_date",
+        "long_count",
+        "day_sign",
+        "tone"
+    ],
+    "mutation_space": {
+        "cycle_length": [13, 20, 260, 365],
+        "tone_mapping": "mutable",
+        "day_sign_mapping": "evolvable"
+    }
+}
+```
+
+---
+
+## 9.5.3 Dream Analysis
+
+### کتابخانه‌ها
+
+- `AI-Dream-Interpreter`
+
+### نقش در پروژه
+
+این بخش فقط زمانی فعال می‌شود که ورودی از جنس خواب، رؤیا یا تصویر ذهنی باشد.
+
+اما تفسیر روان‌شناختی نباید پاسخ نهایی باشد؛ بلکه رؤیا باید به ویژگی‌های نمادین تبدیل شود.
+
+```python
+DreamGene = {
+    "system": "dream_symbolics",
+    "features": [
+        "archetype_tokens",
+        "emotion_signature",
+        "dream_entities",
+        "symbolic_conflicts",
+        "narrative_direction"
+    ],
+    "mutation_space": {
+        "archetype_mapping": "mutable",
+        "symbol_weighting": "evolvable"
+    }
+}
+```
+
+---
+
+# 10. API استاندارد برای همه کتابخانه‌های علوم باستانی
+
+همه wrapperها باید خروجی یکسان تولید کنند.
+
+```python
+class SymbolicSystemWrapper:
+    def compute(self, entropy_packet, params):
+        return {
+            "system_id": "...",
+            "library_backend": "...",
+            "symbolic_state": {},
+            "numeric_projection": [],
+            "structural_features": {},
+            "raw_output": {},
+            "metadata": {}
+        }
+```
+
+---
+
+## نمونه خروجی استاندارد
+
+```python
+{
+    "system_id": "iching",
+    "library_backend": "ichingpy",
+    "symbolic_state": {
+        "hexagram": 42,
+        "changing_lines": [2, 5],
+        "trigrams": ["wind", "thunder"]
+    },
+    "numeric_projection": [42, 2, 5, 6, 1, 0],
+    "structural_features": {
+        "binary_code": "100011",
+        "yin_yang_balance": 0.5,
+        "transition_distance": 2
+    },
+    "raw_output": {...},
+    "metadata": {
+        "version": "0.1.0",
+        "mutation_enabled": True
+    }
+}
+```
+
+---
+
+# 11. Evolutionary Core
+
+در این بخش درخت کتابخانه‌های ژنتیک و تکاملی وارد معماری می‌شود.
+
+این لایه وظیفه دارد ساختارهای پیشگویی را طراحی، جهش، ترکیب، انتخاب و تکامل دهد.
+
+---
+
+# 12. درخت یکپارچه کتابخانه‌های تکاملی در معماری پروژه
+
+---
+
+## 12.1 Genetic Algorithms
+
+### کتابخانه‌ها
+
+- `DEAP`
+- `PyGAD`
+- `geneticalgorithm2`
+- `pyeasyga`
+- `inspyred`
+
+### نقش در پروژه
+
+GA برای تکامل کروموزوم‌های ساختاری استفاده می‌شود.
+
+### مناسب برای
+
+- انتخاب مجموعه سیستم‌های نمادین
+- وزن‌دهی ماژول‌ها
+- تنظیم پارامترهای wrapperها
+- انتخاب مسیرهای ترکیب
+- بهینه‌سازی ساختارهای ساده تا متوسط
+
+### استفاده پیشنهادی
+
+| کتابخانه | نقش |
+|---|---|
+| `DEAP` | هسته انعطاف‌پذیر اصلی برای GA سفارشی |
+| `PyGAD` | نسخه سریع و ساده برای prototype |
+| `geneticalgorithm2` | مسائل constraintدار و visualization |
+| `pyeasyga` | تست آموزشی و کوچک |
+| `inspyred` | آزمایش الگوریتم‌های تکاملی عمومی |
+
+---
+
+## 12.2 Genetic Programming
+
+### کتابخانه‌ها
+
+- `gplearn`
+- `TPOT`
+- `Karoo GP`
+- `ponyGP`
+
+### نقش در پروژه
+
+GP برای تکامل خود «برنامه پیشگویی» استفاده می‌شود.
+
+در این حالت، کروموزوم فقط چند پارامتر نیست، بلکه یک درخت محاسباتی یا گراف اجرایی است.
+
+مثلاً:
+
+```text
+Fusion(
+    IChing(entropy),
+    Gematria(question_text),
+    Astrology(timestamp, location)
+)
+```
+
+### استفاده پیشنهادی
+
+| کتابخانه | نقش |
+|---|---|
+| `gplearn` | symbolic regression و ترکیب توابع عددی |
+| `TPOT` | الهام برای ساخت pipelineهای تکاملی |
+| `Karoo GP` | آزمایش GP پژوهشی |
+| `ponyGP` | GP ساده و قابل تغییر برای ساخت engine اختصاصی |
+
+---
+
+## 12.3 Evolution Strategies
+
+### کتابخانه‌ها
+
+- `Nevergrad`
+- `evosax`
+- `PyGMO`
+
+### نقش در پروژه
+
+برای بهینه‌سازی پارامترهای پیوسته، وزن‌ها، آستانه‌ها و embeddingهای نمادین.
+
+### استفاده پیشنهادی
+
+| کتابخانه | نقش |
+|---|---|
+| `Nevergrad` | بهینه‌سازی بدون گرادیان، مناسب برای black-box oracle |
+| `evosax` | اجرای سریع مبتنی بر JAX |
+| `PyGMO` | island model و موازی‌سازی قوی |
+
+---
+
+## 12.4 Differential Evolution
+
+### کتابخانه‌ها
+
+- `pymoo`
+- `PyGMO`
+- `Nevergrad`
+
+### نقش در پروژه
+
+برای فضای پارامتری پیوسته و نیمه‌پیوسته.
+
+موارد کاربرد:
+
+- وزن fusion
+- thresholdهای همگرایی
+- ضریب پیچیدگی
+- کنترل شدت جهش
+- تنظیم توابع نمره‌دهی
+
+---
+
+## 12.5 Multi-Objective Evolutionary Algorithms
+
+### کتابخانه‌ها
+
+- `pymoo`
+- `PyGMO`
+- `DEAP`
+
+### نقش در پروژه
+
+پروژه فقط یک هدف ندارد. باید چند هدف هم‌زمان بهینه شوند:
+
+- انسجام ساختاری
+- پایداری پاسخ
+- تنوع خروجی
+- نوآوری الگوریتمی
+- سادگی نسبی
+- قدرت همگرایی
+- قابلیت توضیح
+- عدم فروپاشی به تصادف خام
+- عدم تقلید صرف از سنت
+
+بنابراین MOEA یکی از مهم‌ترین بخش‌هاست.
+
+### اهداف نمونه
+
+```python
+fitness = {
+    "structural_coherence": ...,
+    "symbolic_convergence": ...,
+    "response_stability": ...,
+    "novelty": ...,
+    "complexity_penalty": ...,
+    "cross_system_resonance": ...,
+    "oracle_confidence": ...
+}
+```
+
+---
+
+## 12.6 Swarm Intelligence
+
+### کتابخانه‌ها
+
+- `pyswarms`
+- `Mealpy`
+- `NiaPy`
+
+### نقش در پروژه
+
+برای کاوش فضای بزرگ ساختارها، مخصوصاً وقتی topology گرافی بسیار وسیع می‌شود.
+
+### کاربردها
+
+- جستجوی ترکیب‌های جدید سیستم‌ها
+- پیدا کردن وزن‌های همگرایی
+- تنظیم ساختارهای fusion
+- کشف مسیرهای ناشناخته در فضای نمادین
+
+---
+
+## 12.7 Nature-Inspired Metaheuristics
+
+### کتابخانه‌ها
+
+- `Mealpy`
+- `NiaPy`
+- `pyMetaheuristic`
+
+### نقش در پروژه
+
+این‌ها برای ایجاد آزمایشگاه گسترده فراابتکاری استفاده می‌شوند.
+
+کاربرد:
+
+- مقایسه ده‌ها روش جستجو
+- یافتن الگوریتم مناسب برای هر خانواده پرسش
+- طراحی meta-oracle
+- ایجاد islandهای مختلف تکاملی
+
+---
+
+## 12.8 Neuroevolution
+
+### کتابخانه‌ها
+
+- `NEAT-Python`
+- `PyGAD`
+- `evosax`
+
+### نقش در پروژه
+
+برای تکامل ساختارهای عصبی کوچک که وظیفه fusion، weighting یا mapping نهایی را برعهده دارند.
+
+نکته مهم:
+
+در این پروژه neuroevolution نباید سیستم را به یادگیری تاریخی کلاسیک تبدیل کند. بلکه باید از شبکه‌های کوچک، نمادین و تکامل‌یافته برای ترکیب خروجی oracleها استفاده شود.
+
+---
+
+# 13. معماری پیشنهادی Evolutionary Core
+
+```text
+Evolutionary Core
+│
+├── Population Manager
+│   ├── Initial Population Generator
+│   ├── Diversity Controller
+│   └── Island Manager
+│
+├── Genome Representation
+│   ├── Linear Genome
+│   ├── Tree Genome
+│   ├── Graph Genome
+│   └── Hybrid Genome
+│
+├── Operators
+│   ├── Mutation Engine
+│   ├── Crossover Engine
+│   ├── Structural Expansion Engine
+│   ├── Pruning Engine
+│   └── Rule Invention Engine
+│
+├── Optimizers
+│   ├── GA Layer
+│   ├── GP Layer
+│   ├── MOEA Layer
+│   ├── ES/DE Layer
+│   ├── Swarm Layer
+│   └── Metaheuristic Layer
+│
+├── Evaluation
+│   ├── Internal Fitness
+│   ├── Stability Tests
+│   ├── Symbolic Coherence
+│   ├── Pure Entropy Test (آزمون آنتروپی خالص)
+│   ├── Historical Blind Test (آزمون کور تاریخ)
+│   └── Complexity Control
+│
+└── Evolutionary Memory
+    ├── Archive
+    ├── Lineage Graph
+    ├── Fitness History
+    ├── Mutation Bank
+    └── Oracle Registry
+```
+
+---
+
+# 14. نمایش ژن، کروموزوم و اوراکل
+
+---
+
+## 14.1 Gene
+
+یک ژن می‌تواند یک سیستم نمادین یا یک عملگر باشد.
+
+```python
+Gene = {
+    "gene_id": "...",
+    "gene_type": "symbolic_system | transform | fusion | decision | memory_ref",
+    "system": "iching | astrology | gematria | tarot | bazi | geomancy | ...",
+    "backend": "...",
+    "params": {...},
+    "input_ports": [...],
+    "output_ports": [...],
+    "weight": 0.73,
+    "mutation_policy": {...}
+}
+```
+
+---
+
+## 14.2 Chromosome
+
+کروموزوم یک ساختار کامل پیشگویی است.
+
+```python
+Chromosome = {
+    "chromosome_id": "...",
+    "representation": "graph",
+    "genes": [...],
+    "edges": [...],
+    "fusion_rules": [...],
+    "output_mapping": {...},
+    "memory_links": [...],
+    "fitness": {...}
+}
+```
+
+---
+
+## 14.3 Oracle Structure
+
+اوراکل همان برنامه تکامل‌یافته است.
+
+```python
+OracleStructure = {
+    "oracle_id": "...",
+    "lineage": "...",
+    "graph": {...},
+    "symbolic_systems": [...],
+    "execution_plan": [...],
+    "final_mapping": {...},
+    "confidence_model": {...},
+    "explanation_trace": {...}
+}
+```
+
+---
+
+# 15. انواع ساختارهای قابل تکامل
+
+---
+
+## 15.1 ساختار خطی
+
+```text
+Gematria → IChing → Tarot → Final Mapping
+```
+
+مناسب برای prototype.
+
+---
+
+## 15.2 ساختار درختی
+
+```text
+              Fusion
+             /      \
+        IChing      Astrology
+          |             |
+      Gematria       Calendar
+```
+
+مناسب برای GP.
+
+---
+
+## 15.3 ساختار گرافی
+
+```text
+Gematria ─────┐
+              ├── Symbolic Fusion ─── Decision Mapping
+IChing ───────┤
+              │
+Astrology ────┤
+              │
+Bazi ─────────┘
+```
+
+مناسب برای نسخه اصلی پروژه.
+
+---
+
+## 15.4 ساختار چندجزیره‌ای
+
+```text
+Island A: Western Systems
+Island B: Eastern Systems
+Island C: Binary Systems
+Island D: Letter/Number Systems
+Island E: Hybrid Mutants
+
+Migration Layer → Global Archive → Meta-Oracular Selection
+```
+
+مناسب برای پژوهش پیشرفته و مقیاس‌پذیر.
+
+---
+
+# 16. لایه ارزیابی عینی و تابع برازندگی چندهدفه (Objective Evaluation & Fitness Architecture)
+
+## 16.1 بیانیه هدف (Objective Statement)
+چالش بنیادین در ارزیابی سیستم‌های پیشگویی نمادین، نبود یک متریک عینی برای سنجش عیار غیب‌گویی (Divination Quality) بدون آلوده کردن سیستم به الگوهای آماری و داده‌های گذشته است. این لایه با پیاده‌سازی یک «آزمون کور دوگانه» (Double-Blind Test)، کارایی اوراکل‌های تکامل‌یافته را در دو قلمرو کاملاً مجزا ارزیابی می‌کند: «آنتروپی ریاضی خالص» و «رویدادهای تاریخی فریز شده». این فرآیند بدون نقض اصل «عدم اتکا به داده‌های تاریخی برای تحلیل آماری» (اصل 6.1)، یک تابع برازندگی (Fitness Function) کاملاً ریاضی و عینی ایجاد می‌کند.
+
+## 16.2 زیرماژول اول: آزمون آنتروپی خالص (The Pure Entropy Test)
+این آزمون، خالص‌ترین شکل سنجش «غیب‌گویی محاسباتی» است. در این چالش، ساختار اوراکل باید اعدادی را پیش‌بینی کند که فاقد هرگونه فرمول مادی، روند، یا منطق کلاسیک پنهان هستند. اگر الگوریتمی بتواند این اعداد را حدس بزند، نشان‌دهنده توانایی فرامادی ساختار محاسباتی آن است.
+
+### 16.2.1 مکانیسم تولید و محرمانگی آنتروپی
+- **محیط امن تولید:** سیستم در هر نسل با استفاده از توابع رمزنگاری امن پایتون (ماژول `secrets`) یا توابع متصل به آنتروپی سخت‌افزاری/اتمسفری، یک ماتریس عددی پنهان (`Secret Entropy Matrix`) تولید می‌کند.
+- **عدم دسترسی (Blind Test):** کروموزوم‌ها هیچ‌گونه سرنخ، لید، یا راهنمایی آماری از اعداد ندارند و تنها با ابزارهای پیشگویی درونی خود (رمل، ای‌چینگ، نجوم و...) اقدام به تولید پاسخ می‌کنند.
+
+### 16.2.2 مکانیزم افزایش تدریجی سختی (Curriculum Learning)
+برای جلوگیری از قفل شدن موتور تکامل در نسل‌های اولیه، سختی آزمون به صورت پویا با پیشرفت نسل‌ها افزایش می‌یابد:
+- **سطح ۱ (نسل ۱ تا ۵۰):** حدس زدن یک عدد تک‌رقمی تصادفی (بازه ۰ تا ۹).
+- **سطح ۲ (نسل ۵۱ تا ۲۰۰):** حدس زدن دنباله‌ای از اعداد دورقمی در ماتریس چندسطری (نمونه: ۴۵-۳۹-۵۸-۷۳).
+- **سطح ۳ (نسل ۲۰۰ به بالا):** افزایش طول دنباله و ابعاد ارقام (اعداد ۵ رقمی و بیشتر با طول سطر متغیر).
+
+### 16.2.3 فرمول محاسباتی برازندگی اول (f₁)
+میزان نزدیکی حدس الگوریتم به عدد واقعی با استفاده از معیارهای فاصله ریاضی مانند خطای مطلق (MAE) یا فاصله اقلیدسی محاسبه می‌شود. هدف سیستم، مینیمم‌سازی این خطا به سمت صفر است:
+
+$$f_1 = \frac{1}{N}\sum_{i=1}^{N} |Actual_i - Predicted_i|$$
+
+---
+
+## 16.3 زیرماژول دوم: آزمون کور رویدادهای تاریخی (Historical Blind Backtesting)
+در این زیرماژول، تاریخ به عنوان یک «آزمایشگاه زمانِ منجمد شده» عمل می‌کند. داده‌های تاریخی به سیستم آموزش داده نمی‌شوند، بلکه در یک صندوقچه قفل شده قرار می‌گیرند تا پاسخ سیستم پس از صدور، با واقعیت تاریخ راستی‌آزمایی شود.
+
+### 16.3.1 بانک آزمون تاریخی (Historical Test Bank)
+این بانک شامل پکت‌های اطلاعاتی از رویدادهای واقعی تایید شده در تاریخ (حوادث طبیعی مثل سیل و زلزله، رویدادهای ژئوپلیتیک مثل جنگ و صلح، شیوع بیماری‌ها و نقاط عطف قیمتی بازارهای مالی مانند بیت‌کوین) است.
+
+### 16.3.2 ساختار پکت آزمون تاریخی (`HistoricalTestPacket`)
+```python
+HistoricalTestPacket = {
+    "test_id": "HIST_2019_VEN_USA",
+    "historical_timestamp": "2019-01-23T00:00:00",
+    "question_text": "آیا میان ایالات متحده آمریکا و ونزوئلا جنگ نظامی رخ خواهد داد و نتیجه چه خواهد شد؟",
+    "context_entropy": {
+        "planetary_positions_at_time": {...},
+        "gematria_vectors": [...],
+        "calendar_signatures": {...}
+    },
+    "actual_historical_outcome": 0 # 0: صلح/عدم جنگ، 1: جنگ
+}
+```
+### 16.3.3 لایه مبدل خروجی اوراکل (Oracle Output Mapper)
+از آنجا که خروجی اوراکل‌ها نمادین است، یک لایه مبدل استاتیک، امضای نمادین خروجی را به پاسخ‌های متناظر با آزمون (باینری مانند جنگ/صلح یا بازه‌ای مانند بازه قیمتی) نگاشت می‌کند تا قابلیت مقایسه ریاضی فراهم شود.
+### 16.3.4 فرمول محاسباتی برازندگی دوم (f₂)
+برازندگی بر اساس نرخ صحت پیش‌بینی‌ها (Accuracy Score) در رویدادهای مستقل ارزیابی می‌شود. هدف سیستم، ماکسیمم‌سازی این نرخ به سمت ۱ است:
+
+$$f_2 = \frac{\text{Correct Predictions}}{\text{Total Tests}}$$
+
+## 16.4 یکپارچه‌سازی با بهینه‌سازی چندهدفه (Multi-Objective Integration)
+از آنجا که سیستم دارای دو هدف متمایز و گاه متناقض است (حدس آنتروپی خالص ریاضی و کشف شهود رویدادهای انسانی/طبیعی)، ارزیابی با استفاده از الگوریتم‌های چندهدفه مانند **NSGA-II** یا **NSGA-III** از طریق کتابخانه pymoo انجام می‌شود.
+سیستم به دنبال کشف «جبهه پارتو» (Pareto Front) از کروموزوم‌هایی است که بهترین تعادل را بین غیب‌گویی تصادفی و پیشگویی تاریخی برقرار می‌کنند. اوراکل‌هایی که به این مرز بهینگی برسند، به عنوان «ابر-پیشگو» (Super-Oracles) در حافظه بین‌نسلی ذخیره می‌شوند.
+### 16.4.1 شبه‌کد پیاده‌سازی پیوند ارزیابی در پایتون (evaluation/objective_fitness.py)
+```python
+import secrets
+import numpy as np
+from pymoo.core.problem import ElementwiseProblem
+
+class OracleObjectiveEvaluation(ElementwiseProblem):
+    def __init__(self, test_bank_history, curriculum_level=2):
+        super().__init__(n_var=1, n_obj=2, n_ieq_constr=0)
+        self.test_bank_history = test_bank_history
+        self.curriculum_level = curriculum_level
+
+    def _evaluate(self, x, out, *args, **kwargs):
+        # 1. بازسازی الگوریتم بر اساس ژنوم فرد
+        compiled_oracle = rebuild_oracle_structure(x)
+        
+        # 2. اجرای آزمون اول: آنتروپی خالص (اعداد تصادفی)
+        rows, cols = self._get_curriculum_dimensions()
+        secret_matrix = np.array([[secrets.randbelow(100) for _ in range(cols)] for _ in range(rows)])
+        
+        # اوراکل بدون داشتن ماتریس، حدس خود را بر اساس آنتروپی پایه سیستم می‌زند
+        predicted_matrix = compiled_oracle.predict_pure_entropy(rows, cols)
+        f1_entropy_error = np.mean(np.abs(secret_matrix - predicted_matrix)) # هدف: مینیمم‌سازی
+        
+        # 3. اجرای آزمون دوم: آزمون کور تاریخ
+        correct_predictions = 0
+        for test in self.test_bank_history:
+            prediction = compiled_oracle.prophesy(test["question_text"], test["context_entropy"])
+            if prediction == test["actual_historical_outcome"]:
+                correct_predictions += 1
+                
+        f2_history_accuracy = correct_predictions / len(self.test_bank_history)
+        f2_history_error = 1.0 - f2_history_accuracy # تبدیل به مسئله مینیمم‌سازی برای pymoo
+        
+        # ثبت خروجی اهداف در موتور تکاملی
+        out["F"] = [f1_entropy_error, f2_history_error]
+
+    def _get_curriculum_dimensions(self):
+        if self.curriculum_level == 1: return 1, 1
+        if self.curriculum_level == 2: return 3, 4
+        return 5, 5
+```
+
+---
+
+# 17. انواع جهش
+
+---
+
+## 17.1 جهش پارامتری
+
+تغییر وزن‌ها، آستانه‌ها، تعداد کارت‌ها، تعداد خطوط، تعداد خانه‌ها و غیره.
+
+```python
+mutation = {
+    "type": "parameter_mutation",
+    "target": "iching.line_count",
+    "old": 6,
+    "new": 8
+}
+```
+
+---
+
+## 17.2 جهش ساختاری
+
+تغییر اتصال‌ها و topology.
+
+```text
+قبل:
+Gematria → IChing → Output
+
+بعد:
+Gematria ─┐
+          ├→ Fusion → Output
+Tarot ────┘
+```
+
+---
+
+## 17.3 جهش تمدنی
+
+جایگزینی یا ترکیب سیستم از یک خانواده تمدنی با خانواده دیگر.
+
+مثلاً:
+
+```text
+Western Astrology → Vedic Astrology
+IChing → Geomancy
+Tarot → Runes
+Bazi → Mayan Calendar
+```
+
+---
+
+## 17.4 جهش ابعادی
+
+تغییر اندازه فضای حالت.
+
+مثلاً:
+
+- ای‌چینگ: $64 \rightarrow 128$
+- ژئومانسی: $16 \rightarrow 32$
+- تاروت: $78 \rightarrow 96$
+- زودیاک: $12 \rightarrow 24$
+- عناصر چینی: $5 \rightarrow 8$
+
+---
+
+## 17.5 جهش قاعده‌ساز
+
+ساخت قانون جدید توسط سیستم.
+
+مثلاً:
+
+```python
+new_rule = {
+    "name": "triadic_symbolic_resonance",
+    "inputs": ["gematria_mod_22", "hexagram_id", "planet_angle"],
+    "operation": "custom_evolved_mapping",
+    "output": "oracle_phase"
+}
+```
+
+---
+
+## 17.6 جهش ضدسنتی کنترل‌شده
+
+تغییر عمدی قواعد سنتی برای کشف ساختار جدید.
+
+مثلاً:
+
+- تغییر ترتیب هگزاگرام‌ها
+- تغییر نسبت سیارات به خانه‌ها
+- وارونه‌سازی معانی کارت‌ها
+- تعریف عناصر جدید
+- ترکیب حروف عبری، عربی، لاتین و رونیک
+- ایجاد تقویم ترکیبی ایرانی-چینی-مایایی
+
+---
+
+# 18. انواع Crossover
+
+---
+
+## 18.1 Crossover زیرگرافی
+
+دو oracle بخشی از گراف خود را تبادل می‌کنند.
+
+```text
+Oracle A:
+IChing → Gematria → Fusion
+
+Oracle B:
+Astrology → Tarot → Mapping
+
+Child:
+IChing → Tarot → Fusion
+Astrology → Gematria → Mapping
+```
+
+---
+
+## 18.2 Crossover تمدنی
+
+```text
+والد ۱: Chinese Metaphysics + IChing
+والد ۲: Western Astrology + Tarot
+
+فرزند:
+Bazi + Western Astrology + IChing Fusion
+```
+
+---
+
+## 18.3 Crossover قاعده‌ای
+
+قواعد mapping دو ساختار با هم ترکیب می‌شوند.
+
+---
+
+## 18.4 Crossover حافظه‌ای
+
+فرزند از یک ancestor موفق در Evolutionary Memory بخشی از ساختار را ارث می‌برد.
+
+---
+
+# 19. Evaluation Layer
+
+این بخش سخت‌ترین و مهم‌ترین بخش پروژه است.
+
+چون پروژه با پیشگویی آینده سروکار دارد، نباید ارزیابی فقط به «زیبایی متن» یا «شباهت به تعبیر سنتی» محدود شود.
+
+---
+
+## 19.1 معیارهای داخلی بدون داده تاریخی
+
+### 1. انسجام ساختاری
+
+آیا ساختار oracle از نظر گرافی پایدار است؟
+
+```python
+structural_coherence = f(
+    graph_connectivity,
+    cycle_control,
+    signal_flow,
+    output_completeness
+)
+```
+
+---
+
+### 2. پایداری پاسخ
+
+اگر پرسش با تغییرات کوچک مطرح شود، آیا پاسخ کاملاً فرو نمی‌پاشد؟
+
+```python
+response_stability = similarity(
+    oracle(q),
+    oracle(q + small_perturbation)
+)
+```
+
+---
+
+### 3. همگرایی چندسیستمی
+
+آیا سیستم‌های مختلف به امضای نمادین مشابه می‌رسند؟
+
+```python
+cross_system_resonance = agreement(
+    iching_state,
+    gematria_state,
+    astrology_state,
+    tarot_state
+)
+```
+
+---
+
+### 4. تنوع کنترل‌شده
+
+آیا سیستم نه کاملاً تصادفی است و نه کاملاً تکراری؟
+
+---
+
+### 5. نوآوری ساختاری
+
+آیا oracle چیزی فراتر از ترکیب ساده کتابخانه‌ها ساخته است؟
+
+---
+
+### 6. کنترل پیچیدگی
+
+ساختار نباید بی‌جهت بزرگ شود.
+
+```text
+هدف:
+پیچیدگی کافی، اما نه آشوب ساختاری.
+```
+
+---
+
+### 7. عبور از سنت
+
+معیاری برای سنجش اینکه سیستم فقط خروجی سنتی را کپی نکرده باشد.
+
+```python
+tradition_escape_score = novelty_against_classical_templates(...)
+```
+
+---
+
+## 19.2 معیارهای بیرونی مرحله‌ای
+
+در مراحل بعدی می‌توان خروجی‌ها را در چالش‌های آینده‌نگرانه کنترل‌شده آزمود.
+
+نمونه:
+
+- پرسش‌های بسته با افق زمانی مشخص
+- رویدادهای آینده کم‌دامنه
+- تصمیم‌های دوحالته
+- outcomeهای قابل ثبت
+- آزمایش blind
+- ثبت پاسخ قبل از وقوع نتیجه
+- سنجش post-event
+
+نکته: این بخش باید کاملاً جدا از آموزش تاریخی باشد.
+
+---
+
+# 20. تابع Fitness چندهدفه
+
+به جای یک نمره واحد، باید از fitness چندهدفه استفاده شود.
+
+```python
+FitnessVector = {
+    "structural_coherence": 0.0,
+    "response_stability": 0.0,
+    "symbolic_convergence": 0.0,
+    "novelty_score": 0.0,
+    "complexity_penalty": 0.0,
+    "tradition_escape": 0.0,
+    "entropy_utilization": 0.0,
+    "oracle_confidence": 0.0
+}
+```
+
+در انتخاب چندهدفه، می‌توان از `pymoo`، `DEAP` یا `PyGMO` استفاده کرد.
+
+---
+
+# 21. Evolutionary Memory
+
+حافظه تکاملی باید یکی از ستون‌های اصلی پروژه باشد.
+
+---
+
+## 21.1 اجزای حافظه
+
+```text
+Evolutionary Memory
+│
+├── Oracle Archive
+│   ├── بهترین oracleها
+│   ├── oracleهای عجیب اما امیدوارکننده
+│   └── oracleهای شکست‌خورده اما آموزنده
+│
+├── Lineage Graph
+│   ├── والدها
+│   ├── فرزندان
+│   ├── جهش‌ها
+│   └── کراس‌اورها
+│
+├── Mutation Bank
+│   ├── جهش‌های موفق
+│   ├── جهش‌های مخرب
+│   └── جهش‌های ناشناخته
+│
+├── Fitness History
+│   ├── نمودار نسل‌ها
+│   ├── روند همگرایی
+│   └── نقاط جهش مهم
+│
+├── Symbolic State Archive
+│   ├── حالت‌های تکرارشونده
+│   ├── امضاهای نمادین
+│   └── resonance patterns
+│
+└── Experiment Ledger
+    ├── پرسش‌ها
+    ├── پاسخ‌ها
+    ├── زمان ثبت
+    ├── oracle استفاده‌شده
+    └── نتیجه احتمالی آینده
+```
+
+---
+
+## 21.2 فناوری‌های پیشنهادی حافظه
+
+| نیاز | فناوری |
+|---|---|
+| ذخیره ساده | SQLite |
+| ذخیره ساختاری | PostgreSQL |
+| ذخیره lineage گرافی | Neo4j |
+| ذخیره document | MongoDB |
+| ذخیره experiment log | PostgreSQL + JSONB |
+| ذخیره نسخه oracleها | فایل JSON/YAML + Git |
+| جستجوی برداری | FAISS یا Qdrant |
+
+---
+
+# 22. چرخه کامل تکامل
+
+```text
+1. دریافت پرسش
+2. تولید EntropyPacket
+3. انتخاب یا تولید جمعیت اولیه oracleها
+4. اجرای هر oracle روی ورودی
+5. فراخوانی wrapperهای علوم باستانی
+6. تبدیل خروجی‌ها به state استاندارد
+7. fusion نمادین و عددی
+8. تولید پاسخ oracle
+9. محاسبه fitness چندهدفه
+10. انتخاب والدها
+11. اعمال crossover
+12. اعمال mutation
+13. اعمال structural expansion
+14. ذخیره در Evolutionary Memory
+15. ارتقای نسل
+16. انتخاب oracleهای elite
+17. تولید خروجی نهایی برای کاربر
+```
+
+---
+
+# 23. طراحی لایه Fusion
+
+Fusion قلب اوراکل است.
+
+این لایه خروجی چند سیستم را ترکیب می‌کند.
+
+---
+
+## 23.1 انواع Fusion
+
+### 1. Numeric Fusion
+
+ترکیب بردارهای عددی.
+
+```python
+final_vector = weighted_sum([
+    gematria_vector,
+    iching_vector,
+    astrology_vector,
+    bazi_vector
+])
+```
+
+---
+
+### 2. Symbolic Fusion
+
+ترکیب حالت‌های نمادین.
+
+```python
+symbolic_fusion = {
+    "dominant_element": "...",
+    "phase": "...",
+    "polarity": "...",
+    "transition_state": "..."
+}
+```
+
+---
+
+### 3. Graph Fusion
+
+ترکیب گراف‌های خروجی.
+
+```text
+IChing Hexagram Graph
+        +
+Astrology Aspect Graph
+        +
+Gematria Letter Graph
+        =
+Oracle Resonance Graph
+```
+
+---
+
+### 4. Evolutionary Fusion
+
+خود تابع fusion توسط GP یا GA تکامل پیدا می‌کند.
+
+```python
+FusionGene = {
+    "operation": "evolved_function",
+    "inputs": ["iching", "gematria", "astrology"],
+    "tree": {
+        "op": "modular_resonance",
+        "args": [...]
+    }
+}
+```
+
+---
+
+# 24. خروجی نهایی سیستم
+
+خروجی نباید فقط یک متن باشد.
+
+باید چندلایه باشد:
+
+```python
+OracleOutput = {
+    "answer": "...",
+    "symbolic_answer": {...},
+    "numeric_signature": [...],
+    "oracle_confidence": 0.71,
+    "dominant_systems": [...],
+    "evolved_structure": {...},
+    "explanation_trace": [...],
+    "lineage_id": "...",
+    "generation": 42,
+    "fitness": {...}
+}
+```
+
+---
+
+## نمونه خروجی مفهومی
+
+```python
+{
+    "answer": "ساختار تکامل‌یافته نشان می‌دهد که مسیر فعلی وارد فاز تغییر تدریجی می‌شود، اما تغییر کامل وابسته به یک عامل بیرونی در بازه میانی است.",
+    "symbolic_answer": {
+        "phase": "transition",
+        "polarity": "mixed-positive",
+        "dominant_pattern": "delayed emergence",
+        "warning": "premature decision instability"
+    },
+    "numeric_signature": [42, 7, 13, 5, 108],
+    "oracle_confidence": 0.68,
+    "dominant_systems": [
+        "iching_mutant_128",
+        "gematria_abjad_hybrid",
+        "western_astrology_aspect_graph"
+    ],
+    "generation": 128,
+    "lineage_id": "ORC-LIN-00091",
+    "fitness": {
+        "structural_coherence": 0.82,
+        "response_stability": 0.74,
+        "symbolic_convergence": 0.69,
+        "novelty_score": 0.77,
+        "complexity_penalty": 0.22,
+        "tradition_escape": 0.81
+    }
+}
+```
+
+---
+
+# 25. ساختار پیشنهادی مخزن کد
+
+```text
+universal_algorithmic_oracle/
+│
+├── README.md
+├── pyproject.toml
+├── config/
+│   ├── settings.yaml
+│   ├── systems.yaml
+│   ├── evolution.yaml
+│   └── fitness.yaml
+│
+├── oracle/
+│   ├── __init__.py
+│   │
+│   ├── interface/
+│   │   ├── question.py
+│   │   ├── normalization.py
+│   │   └── schemas.py
+│   │
+│   ├── entropy/
+│   │   ├── encoder.py
+│   │   ├── hashing.py
+│   │   ├── bitstream.py
+│   │   ├── calendar_entropy.py
+│   │   └── symbolic_matrix.py
+│   │
+│   ├── symbolic/
+│   │   ├── base.py
+│   │   ├── registry.py
+│   │   │
+│   │   ├── astrology/
+│   │   │   ├── western.py
+│   │   │   ├── vedic.py
+│   │   │   └── calendar.py
+│   │   │
+│   │   ├── gematria/
+│   │   │   ├── abjad.py
+│   │   │   ├── hebrew.py
+│   │   │   ├── english.py
+│   │   │   └── numerology.py
+│   │   │
+│   │   ├── binary/
+│   │   │   ├── iching.py
+│   │   │   ├── geomancy.py
+│   │   │   └── raml.py
+│   │   │
+│   │   ├── cards/
+│   │   │   ├── tarot.py
+│   │   │   ├── lenormand.py
+│   │   │   └── runes.py
+│   │   │
+│   │   ├── eastern/
+│   │   │   ├── bazi.py
+│   │   │   ├── ziwei.py
+│   │   │   ├── qimen.py
+│   │   │   └── lunar.py
+│   │   │
+│   │   ├── mayan/
+│   │   │   ├── tzolkin.py
+│   │   │   └── long_count.py
+│   │   │
+│   │   └── dreams/
+│   │       └── dream_symbols.py
+│   │
+│   ├── genome/
+│   │   ├── gene.py
+│   │   ├── chromosome.py
+│   │   ├── graph_genome.py
+│   │   ├── tree_genome.py
+│   │   └── serialization.py
+│   │
+│   ├── evolution/
+│   │   ├── population.py
+│   │   ├── selection.py
+│   │   ├── mutation.py
+│   │   ├── crossover.py
+│   │   ├── expansion.py
+│   │   ├── novelty.py
+│   │   │
+│   │   ├── engines/
+│   │   │   ├── deap_engine.py
+│   │   │   ├── pygad_engine.py
+│   │   │   ├── pymoo_engine.py
+│   │   │   ├── pygmo_engine.py
+│   │   │   ├── nevergrad_engine.py
+│   │   │   ├── mealpy_engine.py
+│   │   │   └── neat_engine.py
+│   │   │
+│   │   └── islands/
+│   │       ├── island.py
+│   │       ├── migration.py
+│   │       └── scheduler.py
+│   │
+│   ├── fusion/
+│   │   ├── numeric_fusion.py
+│   │   ├── symbolic_fusion.py
+│   │   ├── graph_fusion.py
+│   │   ├── evolved_fusion.py
+│   │   └── mapping.py
+│   │
+│   ├── evaluation/
+│   │   ├── fitness.py
+│   │   ├── coherence.py
+│   │   ├── stability.py
+│   │   ├── convergence.py
+│   │   ├── novelty.py
+│   │   ├── complexity.py
+│   │   └── external_trials.py
+│   │
+│   ├── memory/
+│   │   ├── archive.py
+│   │   ├── lineage.py
+│   │   ├── mutation_bank.py
+│   │   ├── fitness_history.py
+│   │   ├── experiment_ledger.py
+│   │   └── graph_store.py
+│   │
+│   ├── output/
+│   │   ├── oracle_output.py
+│   │   ├── explanation.py
+│   │   ├── report.py
+│   │   └── visualization.py
+│   │
+│   └── runtime/
+│       ├── executor.py
+│       ├── sandbox.py
+│       ├── cache.py
+│       └── pipeline.py
+│
+├── experiments/
+│   ├── phase_01_simple_oracles/
+│   ├── phase_02_hybrid_oracles/
+│   ├── phase_03_graph_oracles/
+│   ├── phase_04_multi_island/
+│   └── phase_05_external_trials/
+│
+├── notebooks/
+│   ├── symbolic_feature_tests.ipynb
+│   ├── evolution_tests.ipynb
+│   └── oracle_lineage_analysis.ipynb
+│
+├── tests/
+│   ├── test_entropy.py
+│   ├── test_wrappers.py
+│   ├── test_genome.py
+│   ├── test_mutation.py
+│   ├── test_crossover.py
+│   ├── test_fitness.py
+│   └── test_memory.py
+│
+└── data/
+    ├── archives/
+    ├── lineages/
+    ├── experiments/
+    └── generated_oracles/
+```
+
+---
+
+# 26. نقشه فنی استفاده از کتابخانه‌ها
+
+## 26.1 هسته پیشنهادی نسخه اول
+
+برای شروع، بهتر است پروژه با تعداد محدود اما قدرتمند آغاز شود.
+
+### تکاملی
+
+| نقش | کتابخانه |
+|---|---|
+| هسته GA/GP سفارشی | `DEAP` |
+| چندهدفه | `pymoo` |
+| بهینه‌سازی black-box | `Nevergrad` |
+| island و parallel | `PyGMO` |
+| فراابتکاری گسترده | `Mealpy` |
+
+### علوم نمادین
+
+| خانواده | کتابخانه شروع |
+|---|---|
+| نجوم غربی | `pyswisseph` یا `kerykeion` |
+| ای‌چینگ | `ichingpy` |
+| ژئومانسی | `practical_geomancy` |
+| ابجد/گماتریا | `abnum` |
+| تاروت | `python-tarot` |
+| چینی/بازی | `lunar-python` و `bazi` |
+| تقویم ایرانی | `jdatetime` |
+| تقویم هجری | `hijridate` |
+
+---
+
+# 27. فازبندی پروژه
+
+---
+
+## فاز 1: هسته حداقلی
+
+هدف: ساخت pipeline کامل اما کوچک.
+
+سیستم‌ها:
+
+- ابجد/گماتریا
+- ای‌چینگ
+- ژئومانسی
+- تقویم شمسی/قمری
+- GA ساده
+
+خروجی:
+
+- oracleهای خطی
+- fitness داخلی
+- ذخیره حافظه ساده در SQLite
+
+---
+
+## فاز 2: ساختار درختی و GP
+
+افزودن:
+
+- `DEAP` GP
+- نمایش درختی
+- fusion تکامل‌یافته
+- mutationهای ساختاری
+- خروجی explanation trace
+
+---
+
+## فاز 3: چندتمدنی
+
+افزودن:
+
+- نجوم غربی
+- نجوم ودایی
+- بَزی
+- تاروت
+- تقویم مایا
+- رون‌ها
+
+هدف:
+
+- ترکیب تمدنی
+- جهش بین‌سیستمی
+- معیار tradition_escape
+
+---
+
+## فاز 4: چندهدفه و حافظه پیشرفته
+
+افزودن:
+
+- `pymoo`
+- Pareto archive
+- Neo4j lineage graph
+- mutation bank
+- symbolic state archive
+
+---
+
+## فاز 5: Island Model
+
+افزودن:
+
+- `PyGMO`
+- islandهای جداگانه
+- مهاجرت ساختارها
+- meta-oracle selector
+
+---
+
+## فاز 6: آزمون آینده‌نگرانه کنترل‌شده
+
+افزودن:
+
+- ثبت پرسش و پاسخ قبل از رخداد
+- timestamp غیرقابل تغییر
+- outcome ledger
+- ارزیابی پس از رخداد
+- مقایسه lineageهای مختلف
+
+---
+
+# 28. فاز 6: آزمون آینده‌نگرانه کنترل‌شده
+
+این فاز جایی است که پروژه از حالت «آزمایشگاه ساخت الگوریتم» به «آزمایشگاه آزمون الگوریتم‌های غیب‌گویانه» نزدیک‌تر می‌شود؛ اما به‌جای اتکا به داده تاریخی، از **آزمایش‌های prospective** استفاده می‌کند:
+
+## 28.1 اصول
+
+1. هیچ داده تاریخی برای آموزش/fit کردن استفاده نمی‌شود.  
+2. فقط خروجی oracleها برای پرسش‌هایی که هنوز outcome آن‌ها رخ نداده، ثبت می‌شود.
+3. پس از وقوع رویداد، outcome به صورت «تگ» ثبت می‌شود تا صرفاً برای ارزیابی استفاده شود، نه برای بازتربیت کلاسیک.
+
+## 28.2 معماری آزمون
+
+```text
+User Question
+   │
+   ▼
+Experiment Manager
+   │
+   ├── Registers Oracle ID + Structure Snapshot
+   ├── Records Question, Time, Context
+   ├── Freezes Output (Hash + Signature)
+   └── Logs to Immutable Store (Append-Only)
+```
+
+بعد از گذشت افق زمانی تعریف‌شده:
+
+```text
+Outcome Collector
+   │
+   └── Annotates Experiment with Outcome Tag (Success/Failure/Partial/Unknown)
+```
+
+## 28.3 اجزای فنی
+
+### 1. Experiment Ledger
+
+جدولی در پایگاه داده (مثلاً PostgreSQL):
+
+```text
+experiments
+-----------
+id (PK)
+question_text
+entropy_signature
+oracle_id
+oracle_version
+oracle_graph_hash
+prediction_payload (JSON)
+timestamp_created
+time_horizon
+status (pending / evaluated)
+outcome (success / fail / partial / unknown)
+outcome_details (JSON)
+```
+
+### 2. Immutable Log
+
+برای جلوگیری از دستکاری:
+
+- می‌توان از:
+  - append-only file log با hash chain
+  - یا ثبت hash رکوردها در یک دفترچه مستقل (مثلاً فایل ساده با Merkle-style chaining)  
+استفاده کرد تا «زمان و محتوی پیش‌بینی» بعداً قابل انکار یا دست‌کاری نباشد.
+
+### 3. ارزیابی ثانویه
+
+بعد از جمع‌شدن تعداد کافی آزمایش، می‌توان:
+
+- همبستگی گزینه‌ای (در پرسش‌های دوحالته/چندحالته) را بررسی کرد.
+- ارزیابی کیفی ارزیاب انسانی (blind) را روی پاسخ‌ها اعمال کرد.
+- به شکل پژوهشی و نه علمی-قطعی، ببینیم:
+  - آیا بعضی lineageها به‌صورت غیرعادی بهترند؟
+  - آیا برخی ساختارها «انگار» بر بقیه برتری دارند؟
+
+**مهم:** حتی در اینجا هم آن ساختارها را به شکل مدل کلاسیک داده‌محور train نمی‌کنیم، بلکه شاید در آینده از این اطلاعات برای:
+
+- وزن‌دهی اولیه نسل‌های بعدی
+- یا انتخاب prior برای ساخت جمعیت اولیه جدید
+
+استفاده شود، نه برای gradient descent یا fit مستقیم.
+
+---
+
+# 29. ملاحظات ایمنی، فلسفی و مرزبندی پروژه
+
+با توجه به ماهیت پروژه (پیشگویی/غیب‌گویی نمادین)، لازم است:
+
+## 29.1 مرزبندی صریح
+
+1. این سیستم **ادعای علمی تجربی استاندارد** درباره پیش‌بینی آینده ندارد.
+2. این پروژه یک **آزمایشگاه محاسبات نمادین تکاملی** است که در قلمرو:
+   - محاسبات نمادین
+   - سیستم‌های تکاملی
+   - علوم باستانی به‌عنوان substrate
+   - و اکتشاف ساختارهای جدید  
+   حرکت می‌کند.
+3. خروجی‌ها **نباید به‌عنوان توصیه قطعی، پزشکی، حقوقی، مالی یا روان‌درمانی** استفاده شوند.
+
+## 29.2 لایه Disclaimer فنی
+
+در لایه `oracle/output/explanation.py` باید همیشه در پاسخ نهایی بخش‌های زیر بیاید:
+
+- توضیح اینکه پاسخ حاصل یک **ساختار تکامل‌یافته نمادین** است.
+- توضیح اینکه هیچ تضمین تجربی/علمی استاندارد وجود ندارد.
+- هشدار نسبت به استفاده از پاسخ در تصمیم‌های حیاتی.
+- تأکید بر ماهیت پژوهشی/اکتشافی سیستم.
+
+---
+
+# 30. جمع‌بندی معماری نهایی (نسخه مهندسی‌شده و یکپارچه)
+
+در این بخش، کل آنچه گفته شد را در یک صورت‌بندی **شفاف، حرفه‌ای و قابل پیاده‌سازی** خلاصه می‌کنم.
+
+---
+
+## 30.1 لایه‌های معماری کلان
+
+1. **Question & Entropy Layer**  
+   - ورودی پرسش، نرمال‌سازی، تولید بسته آنتروپی.
+2. **Symbolic Substrate & Wrappers Layer**  
+   - آداپت کردن تمام کتابخانه‌های علوم باستانی به خروجی استاندارد.
+3. **Genome & Oracle Representation Layer**  
+   - تعریف ژن، کروموزوم و گراف/درخت اوراکل.
+4. **Evolutionary Engine Layer**  
+   - GA/GP/MOEA/ES/DE/Swarm/Metaheuristics به‌عنوان موتورها.
+5. **Fusion & Mapping Layer**  
+   - ترکیب خروجی سیستم‌های نمادین و تبدیل به پاسخ.
+6. **Evaluation & Fitness Layer**  
+   - تعریف معیارهای داخلی + بیرونی، چندهدفه (شامل آزمون آنتروپی خالص و کور تاریخی).
+7. **Evolutionary Memory & Archive Layer**  
+   - نگهداری lineage، mutation bank، oracle archive.
+8. **Experiment & Outcome Layer**  
+   - ثبت آزمایش‌های آینده‌نگرانه و outcomeها.
+9. **Oracle Output & Explanation Layer**  
+   - ساخت پاسخ نهایی، trace و گزارش ساختاری.
+
+---
+
+## 30.2 نمای کلی جریان داده
+
+```text
+User Question
+   │
+   ▼
+Question Interface
+   │
+   ▼
+Entropy Encoder
+   │
+   ▼
+[ Symbolic Systems Wrappers ]
+   ├── Astrology (Western, Vedic)
+   ├── Calendars (Jalali, Hijri, Chinese, Mayan, ...)
+   ├── Gematria / Abjad / Hebrew / English
+   ├── IChing / Geomancy / Raml
+   ├── Tarot / Lenormand / Runes / Ogham
+   ├── Chinese Metaphysics (BaZi, Zi Wei, QiMen)
+   ├── Dreams (optional)
+   └── ...
+   │
+   ▼
+Standardized Symbolic State
+   │
+   ▼
+Evolutionary Core
+   ├── GA / GP / MOEA / ES / DE / Swarm
+   ├── Mutation / Crossover / Expansion
+   └── Genome (Graph/Tree) of Oracle
+   │
+   ▼
+Oracle Structure
+   │
+   ▼
+Fusion & Mapping
+   │
+   ▼
+Evaluation (Fitness)
+   │
+   ├── Internal Multi-Objective Scores
+   ├── Pure Entropy Test
+   ├── Historical Blind Test
+   └── (Optional, later) External Outcome Checks
+   │
+   ▼
+Evolutionary Memory
+   │
+   ▼
+Oracle Output
+   │
+   └── Experiment Ledger (for future outcome tagging)
+```
+
+---
+
+## 30.3 انتخاب تکنولوژی‌ها به‌صورت قطعی پیشنهادی
+
+### زبان و اسکلت
+
+- Python 3.11+
+- ساختار بسته با `pyproject.toml` (Poetry یا Hatch)
+
+### تکامل
+
+- GA/GP:  
+  - `DEAP` به‌عنوان هسته اصلی
+- Multi-objective:  
+  - `pymoo` برای NSGA-II / NSGA-III
+- Black-box optimization / ES / DE:  
+  - `Nevergrad`
+- Island model و موازی‌سازی:  
+  - `PyGMO`
+- مجموعه الگوریتم‌های فراابتکاری:  
+  - `Mealpy`
+
+### علوم باستانی
+
+- حداقل مجموعه نسخه اول:
+  - `pyswisseph`, `kerykeion` (نجوم غربی)
+  - `VedAstro.Python` / `bazi` / `lunar-python` (شرق)
+  - `abnum` (ابجد/گماتریا)
+  - `ichingpy` (ای‌چینگ)
+  - `practical_geomancy` (ژئومانسی)
+  - `python-tarot` (تاروت)
+  - `jdatetime`, `hijridate`, `chinese-calendar`, `tzolkin-calendar`
+
+### ذخیره‌سازی
+
+- پایگاه‌داده اصلی: PostgreSQL
+- lineage گرافی: Neo4j
+- آرشیو فایل JSON: روی دیسک + Git (برای نسخه oracle)
+- experiment ledger: جدول Postgres + hash chain روی فایل
+
+---
+
+## 30.4 قرارداد API برای Wrapperها (قطعی)
+
+هر wrapper باید کلاس `SymbolicSystemWrapper` را پیاده‌سازی کند:
+
+```python
+class SymbolicSystemWrapper:
+    SYSTEM_ID = "..."
+
+    def compute(self, entropy_packet, params=None):
+        """
+        :param entropy_packet: dict  (خروجی Entropy Encoder)
+        :param params: dict | None   (پارامترهای تکامل‌یافته ژن)
+        :return: dict با ساختار استاندارد
+        """
+        return {
+            "system_id": self.SYSTEM_ID,
+            "library_backend": "pyswisseph",
+            "symbolic_state": {...},
+            "numeric_projection": [...],
+            "structural_features": {...},
+            "raw_output": {...},
+            "metadata": {
+                "version": "0.1.0",
+                "call_context": {...}
+            }
+        }
+```
+
+---
+
+## 30.5 قرارداد نمایش ژن و کروموزوم (نسخه ساده اولیه)
+
+### Gene
+
+```python
+@dataclass
+class Gene:
+    gene_id: str
+    system_id: str                    # مثل: "iching", "gematria", "tarot", ...
+    backend: str                      # مثل: "ichingpy"
+    params: dict                      # پارامترهای متخصص به آن سیستم
+    input_slots: list[str]            # نام خروجی‌هایی که دریافت می‌کند
+    output_slots: list[str]           # نام خروجی‌هایی که می‌سازد
+    weight: float                     # وزن در fusion
+    mutation_policy: dict             # نحوه جهش
+```
+
+### Chromosome (Graph-based)
+
+```python
+@dataclass
+class Chromosome:
+    chromosome_id: str
+    genes: dict[str, Gene]
+    edges: list[tuple[str, str]]      # لیست (from_gene_id, to_gene_id)
+    fusion_schema: dict               # چطور خروجی‌ها ادغام شوند
+    output_mapping: dict              # از چه نودهایی به خروجی نهایی برسیم
+    fitness: dict | None = None
+```
+
+---
+
+## 30.6 نقشه توسعه مرحله‌ای (Roadmap اجرایی)
+
+### مرحله 0: اسکلت پروژه
+
+- ساختار دایرکتوری
+- configها
+- اسکریپت نصب
+- logging ساده
+
+### مرحله 1: Entropy + چند Wrapper ساده
+
+- پیاده‌سازی:
+  - `entropy/encoder.py`
+  - `symbolic/gematria/abjad.py`
+  - `symbolic/binary/iching.py`
+  - `symbolic/astrology/western.py` (حداقلی با pyswisseph)
+
+- تعریف `SymbolicSystemWrapper` و `symbolic/registry.py`.
+
+### مرحله 2: GA روی ساختار خطی
+
+- پیاده‌سازی:
+  - `genome/gene.py`, `genome/chromosome.py` (نسخه خطی)
+  - `evolution/deap_engine.py` (GA ساده)
+  - `evolution/mutation.py`, `evolution/crossover.py` (نسخه خطی)
+
+- Fitness اولیه:
+  - `structural_coherence`
+  - `response_stability`
+  - `novelty_score` ساده
+
+### مرحله 3: گراف/درخت + GP
+
+- توسعه `graph_genome.py`
+- GP ساده با DEAP برای ساخت درختی:
+  - `Gematria → IChing → Astrology`، etc.
+- افزودن fusion قابل تکامل.
+
+### مرحله 4: MOEA + Memory
+
+- اتصال `pymoo` برای NSGA-II.
+- طراحی `Evolutionary Memory`:
+  - `memory/archive.py`
+  - `memory/lineage.py`
+  - `memory/mutation_bank.py`
+
+### مرحله 5: افزودن خانواده‌های جدید نمادین
+
+- تاروت، ژئومانسی، بزی، مایا، رون‌ها، تقویم‌های چندگانه.
+
+### مرحله 6: Island Model
+
+- استفاده از `PyGMO`:
+  - هر island: خانواده نمادین خاص.
+- مهاجرت دوره‌ای.
+
+### مرحله 7: Experiment Ledger و آزمون آینده‌نگرانه
+
+- پیاده‌سازی:
+  - `memory/experiment_ledger.py`
+  - `evaluation/external_trials.py`
+
+- اجرا روی پرسش‌های واقعی با افق زمانی مشخص.
+
+---
+
+## 30.7 تأکید نهایی بر ماهیت پروژه
+
+۱. این پروژه **فالگیر دیجیتال** نیست.  
+۲. این پروژه **شبیه‌ساز متن تفسیر سنتی** نیست.  
+۳. این پروژه یک **آزمایشگاه تکامل الگوریتم‌های نمادین** است که:
+
+- از علوم باستانی به‌عنوان substrate محاسباتی استفاده می‌کند.
+- از الگوریتم‌های تکاملی مدرن به‌عنوان موتور جستجو استفاده می‌کند.
+- ساختارهای جدید، ترکیبی و جهش‌یافته تولید می‌کند.
+- سعی می‌کند به پرسش‌های آینده‌نگرانه پاسخ بدهد.
+- و این پاسخ‌ها را در چارچوب یک محیط پژوهشی، قابل ثبت و تحلیل نگه می‌دارد.

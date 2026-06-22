@@ -1,0 +1,50 @@
+# Fitness & Evaluation Configuration
+fitness:
+  objectives:
+    structural_coherence:
+      weight: 0.20
+      description: "Graph connectivity and structural stability"
+    response_stability:
+      weight: 0.15
+      description: "Stability under small perturbations"
+    symbolic_convergence:
+      weight: 0.15
+      description: "Cross-system agreement"
+    novelty_score:
+      weight: 0.15
+      description: "Structural innovation beyond simple combination"
+    complexity_penalty:
+      weight: 0.10
+      description: "Penalty for excessive complexity"
+    tradition_escape:
+      weight: 0.10
+      description: "Deviation from classical templates"
+    entropy_utilization:
+      weight: 0.10
+      description: "Effective use of entropy input"
+    oracle_confidence:
+      weight: 0.05
+      description: "Internal confidence measure"
+
+  pure_entropy_test:
+    enabled: true
+    curriculum:
+      level_1:
+        generations: [1, 50]
+        difficulty: "single_digit"
+        range: [0, 9]
+      level_2:
+        generations: [51, 200]
+        difficulty: "double_digit_sequence"
+        sequence_length: 4
+        range: [10, 99]
+      level_3:
+        generations: [201, 9999]
+        difficulty: "multi_row_matrix"
+        rows: 5
+        cols: 5
+        range: [0, 99999]
+
+  historical_blind_test:
+    enabled: true
+    test_bank_path: "data/experiments/historical_test_bank.json"

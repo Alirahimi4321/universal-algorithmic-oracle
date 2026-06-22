@@ -1,0 +1,135 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "universal-algorithmic-oracle"
+version = "0.4.0"
+description = "Adaptive Evolutionary Engine for Symbolic Future Inference"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "pyyaml>=6.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+evolution = [
+    "deap>=1.4",
+    "pymoo>=5.4",
+    "nevergrad>=0.5",
+    "PyGAD>=3.7",
+    "geneticalgorithm2>=6.0",
+    "pyeasyga>=0.3",
+    "inspyred>=1.0",
+    "gplearn>=0.4",
+    "TPOT>=0.12",
+    "NiaPy>=2.7",
+    "neat-python>=2.0",
+    "pyswarms>=1.3",
+    "evosax>=0.2",
+    "pyMetaheuristic>=7.0",
+    "PyGMO>=2.19",
+    "stochopy>=2.0",
+    "psopy>=0.2",
+    "evogine>=0.1",
+    "cma>=4.0",
+    "bayesian-optimization>=1.2",
+]
+astrology = [
+    "pyswisseph>=2.10",
+    "kerykeion>=5.0",
+    "flatlib>=0.2",
+    "skyfield>=1.44",
+    "libephemeris>=2.0",
+    "ketu>=1.0",
+    "ndastro-engine>=0.20",
+    "astral>=3.0",
+    "ephem>=4.0",
+    "falakpy>=1.0",
+    "vedastro>=1.0",
+    "stellium>=0.19",
+    "jyotishganit>=0.1",
+]
+calendars = [
+    "jdatetime>=5.0",
+    "hijridate>=2.5",
+    "persiantools>=5.0",
+    "chinese-calendar>=1.9",
+    "cnlunar>=0.2",
+    "lunar-python>=1.4",
+    "lunardate>=0.2",
+    "roman>=5.0",
+    "holidays>=0.40",
+    "romanize3>=0.1",
+    "jalali_core>=0.1",
+    "sxtwl>=2.0",
+]
+divination = [
+    "ichingpy>=0.1",
+    "geomancy>=1.2",
+    "abnum>=0.1",
+    "gematria_engine>=0.1",
+    "python-hebrew-numbers>=0.2",
+    "PyTarot>=0.1",
+    "riimut>=1.3",
+    "ogham>=1.0",
+    "numerology>=1.8",
+    "opendivination>=0.1",
+    "arcanite>=0.2",
+    "tarot-card-meanings>=1.0",
+    "divicast>=0.2",
+    "hafez>=0.4",
+    "iching>=3.0",
+    "ichingshifa>=3.0",
+]
+eastern = [
+    "iztro-py>=0.3",
+    "tzolkin-calendar>=1.0",
+    "korean-saju>=0.1",
+    "tianji>=0.1",
+    "mayacal>=0.2",
+    "zhdate>=1.2",
+    "vedicastro>=0.2",
+    "jhora>=4.8",
+]
+infrastructure = [
+    "sqlalchemy>=2.0",
+    "faiss-cpu>=1.8",
+    "qdrant-client>=1.11",
+    "neo4j>=5.0",
+]
+viz = [
+    "matplotlib>=3.7",
+    "graphviz>=0.20",
+    "networkx>=3.0",
+]
+analysis = [
+    "networkx>=3.0",
+    "infomeasure>=0.5",
+    "divergence>=1.0",
+    "nolds>=0.6",
+    "pynamicalsys>=1.5",
+    "pyenfra>=0.4",
+    "syntropy>=0.0",
+    "pyitlib>=0.3",
+    "sympy>=1.12",
+    "moocore>=0.3",
+]
+community = [
+    "infomap>=2.0",
+    "leidenalg>=0.10",
+    "python-igraph>=1.0",
+]
+dev = ["pytest>=7.0", "ruff>=0.1"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

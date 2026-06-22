@@ -1,0 +1,37 @@
+# Evolutionary Engine Configuration
+evolution:
+  population_size: 50
+  max_generations: 200
+  elite_count: 5
+  tournament_size: 3
+
+  mutation:
+    rate: 0.15
+    types:
+      - parameter_mutation
+      - structural_mutation
+      - civilization_mutation
+      - dimensional_mutation
+
+  crossover:
+    rate: 0.7
+    types:
+      - subgraph_crossover
+      - civilization_crossover
+      - rule_crossover
+
+  selection:
+    method: "tournament"
+    tournament_size: 3
+
+  islands:
+    enabled: false  # Phase 5
+    count: 4
+    migration_interval: 10
+    migration_rate: 0.1
+
+engines:
+  primary: "deap_ga"
+  multi_objective: "pymoo_nsga2"
+  black_box: "nevergrad"
+  swarm: "mealpy"

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Byte-compiled
+*.pyc
+
+# Data files (large)
+*.bsp
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+.cache/**/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Qwen/OpenCode
+.qwen/
+.opencode/
+
+# Temporary files
+*.tmp
+*.bak

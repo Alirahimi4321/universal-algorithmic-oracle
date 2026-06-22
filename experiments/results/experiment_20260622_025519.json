@@ -1,0 +1,460 @@
+{
+  "timestamp": "2026-06-22T02:55:19.121038",
+  "baseline": {
+    "ai_divination": {
+      "success_rate": 0.0,
+      "avg_time_ms": 0,
+      "total_queries": 10
+    },
+    "ai_iching": {
+      "success_rate": 0.0,
+      "avg_time_ms": 0,
+      "total_queries": 10
+    },
+    "ai_tarot": {
+      "success_rate": 0.0,
+      "avg_time_ms": 0,
+      "total_queries": 10
+    },
+    "ai_xiaoliuren": {
+      "success_rate": 0.0,
+      "avg_time_ms": 0,
+      "total_queries": 10
+    },
+    "arcanite_tarot": {
+      "success_rate": 1.0,
+      "avg_time_ms": 13.21704387664795,
+      "total_queries": 10
+    },
+    "astral": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.43861865997314453,
+      "total_queries": 10
+    },
+    "astrology_kerykeion": {
+      "success_rate": 1.0,
+      "avg_time_ms": 232.1470022201538,
+      "total_queries": 10
+    },
+    "astrology_vedic": {
+      "success_rate": 1.0,
+      "avg_time_ms": 7.013726234436035,
+      "total_queries": 10
+    },
+    "astrology_western": {
+      "success_rate": 1.0,
+      "avg_time_ms": 9.427094459533691,
+      "total_queries": 10
+    },
+    "bazi": {
+      "success_rate": 1.0,
+      "avg_time_ms": 142.0262336730957,
+      "total_queries": 10
+    },
+    "calendar": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.047016143798828125,
+      "total_queries": 10
+    },
+    "dream_symbols": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.08366107940673828,
+      "total_queries": 10
+    },
+    "english_gematria": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.027489662170410156,
+      "total_queries": 10
+    },
+    "ephem": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.5105972290039062,
+      "total_queries": 10
+    },
+    "falak": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.042891502380371094,
+      "total_queries": 10
+    },
+    "figurate_plane": {
+      "success_rate": 0.0,
+      "avg_time_ms": 0,
+      "total_queries": 10
+    },
+    "figurate_space": {
+      "success_rate": 0.0,
+      "avg_time_ms": 0,
+      "total_queries": 10
+    },
+    "flatlib_astrology": {
+      "success_rate": 1.0,
+      "avg_time_ms": 10.205507278442383,
+      "total_queries": 10
+    },
+    "fortune_telling_core": {
+      "success_rate": 1.0,
+      "avg_time_ms": 129.76601123809814,
+      "total_queries": 10
+    },
+    "gematria": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.021219253540039062,
+      "total_queries": 10
+    },
+    "gematria_engine": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.02658367156982422,
+      "total_queries": 10
+    },
+    "geomancy": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.15819072723388672,
+      "total_queries": 10
+    },
+    "hafez": {
+      "success_rate": 1.0,
+      "avg_time_ms": 29.917287826538086,
+      "total_queries": 10
+    },
+    "hebrew_gematria": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.010466575622558594,
+      "total_queries": 10
+    },
+    "hebrew_gematria_advanced": {
+      "success_rate": 1.0,
+      "avg_time_ms": 13.936018943786621,
+      "total_queries": 10
+    },
+    "hebrew_numbers": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.012087821960449219,
+      "total_queries": 10
+    },
+    "hijri_calendar": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.02262592315673828,
+      "total_queries": 10
+    },
+    "holidays_calendar": {
+      "success_rate": 1.0,
+      "avg_time_ms": 147.9863166809082,
+      "total_queries": 10
+    },
+    "iching": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.02295970916748047,
+      "total_queries": 10
+    },
+    "iching_lib": {
+      "success_rate": 1.0,
+      "avg_time_ms": 314.81921672821045,
+      "total_queries": 10
+    },
+    "iching_shifa": {
+      "success_rate": 1.0,
+      "avg_time_ms": 1.806950569152832,
+      "total_queries": 10
+    },
+    "jalali_calendar": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.045680999755859375,
+      "total_queries": 10
+    },
+    "jalali_core": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.015306472778320312,
+      "total_queries": 10
+    },
+    "jyotishganit_vedic": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.03533363342285156,
+      "total_queries": 10
+    },
+    "ketu_astronomy": {
+      "success_rate": 1.0,
+      "avg_time_ms": 3536.0172986984253,
+      "total_queries": 10
+    },
+    "korean_saju": {
+      "success_rate": 1.0,
+      "avg_time_ms": 20.607280731201172,
+      "total_queries": 10
+    },
+    "lenormand": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.07731914520263672,
+      "total_queries": 10
+    },
+    "libephemeris_astrology": {
+      "success_rate": 1.0,
+      "avg_time_ms": 33.50543975830078,
+      "total_queries": 10
+    },
+    "long_count": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.42624473571777344,
+      "total_queries": 10
+    },
+    "lunar_calendar": {
+      "success_rate": 1.0,
+      "avg_time_ms": 13.598918914794922,
+      "total_queries": 10
+    },
+    "lunar_date": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.03256797790527344,
+      "total_queries": 10
+    },
+    "lunar_mcp": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.10151863098144531,
+      "total_queries": 10
+    },
+    "mayacal": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.041031837463378906,
+      "total_queries": 10
+    },
+    "ndastro_vedic": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.028014183044433594,
+      "total_queries": 10
+    },
+    "numerology": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.011420249938964844,
+      "total_queries": 10
+    },
+    "ogham": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.02906322479248047,
+      "total_queries": 10
+    },
+    "opendivination_iching": {
+      "success_rate": 1.0,
+      "avg_time_ms": 54.41436767578125,
+      "total_queries": 10
+    },
+    "pohualli_calendar": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.08091926574707031,
+      "total_queries": 10
+    },
+    "pythagorean_numerology": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.23767948150634766,
+      "total_queries": 10
+    },
+    "qimen": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.3940582275390625,
+      "total_queries": 10
+    },
+    "raml": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.10335445404052734,
+      "total_queries": 10
+    },
+    "roman_numerals": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.03941059112548828,
+      "total_queries": 10
+    },
+    "romanize": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.01983642578125,
+      "total_queries": 10
+    },
+    "runes": {
+      "success_rate": 0.0,
+      "avg_time_ms": 0,
+      "total_queries": 10
+    },
+    "sixline": {
+      "success_rate": 1.0,
+      "avg_time_ms": 15.040302276611328,
+      "total_queries": 10
+    },
+    "skyfield_astro": {
+      "success_rate": 1.0,
+      "avg_time_ms": 43.86146068572998,
+      "total_queries": 10
+    },
+    "stellium_astrology": {
+      "success_rate": 1.0,
+      "avg_time_ms": 81.97896480560303,
+      "total_queries": 10
+    },
+    "sxtwl": {
+      "success_rate": 1.0,
+      "avg_time_ms": 3.5584449768066406,
+      "total_queries": 10
+    },
+    "tarot": {
+      "success_rate": 0.0,
+      "avg_time_ms": 0,
+      "total_queries": 10
+    },
+    "tarot_card_meanings": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.17194747924804688,
+      "total_queries": 10
+    },
+    "tarot_oracle": {
+      "success_rate": 1.0,
+      "avg_time_ms": 8.367753028869629,
+      "total_queries": 10
+    },
+    "tianji_bazi": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.01773834228515625,
+      "total_queries": 10
+    },
+    "tianji_liuren": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.0071048736572265625,
+      "total_queries": 10
+    },
+    "tianji_qimen": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.006890296936035156,
+      "total_queries": 10
+    },
+    "tianji_ziwei": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.10793209075927734,
+      "total_queries": 10
+    },
+    "tzolkin": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.01850128173828125,
+      "total_queries": 10
+    },
+    "vedastro": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.048995018005371094,
+      "total_queries": 10
+    },
+    "yaegi_kundali": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.04127025604248047,
+      "total_queries": 10
+    },
+    "yaegi_panchang": {
+      "success_rate": 1.0,
+      "avg_time_ms": 0.010085105895996094,
+      "total_queries": 10
+    },
+    "ziwei": {
+      "success_rate": 1.0,
+      "avg_time_ms": 148.19645881652832,
+      "total_queries": 10
+    }
+  },
+  "evolution": {
+    "config": {
+      "population_size": 25,
+      "max_generations": 15,
+      "mutation_rate": 0.15,
+      "crossover_rate": 0.7,
+      "use_progressive_difficulty": true,
+      "use_memory": false,
+      "use_adaptive_rates": true,
+      "fitness": {
+        "use_pure_entropy": false,
+        "use_historical_blind": false,
+        "use_legacy_benchmark": false
+      }
+    },
+    "history": [
+      {
+        "gen": 1,
+        "avg_top5": 0.5581765752836528,
+        "best": 0.5750526950149805
+      },
+      {
+        "gen": 2,
+        "avg_top5": 0.5760121707406176,
+        "best": 0.5830404723092633
+      },
+      {
+        "gen": 3,
+        "avg_top5": 0.5901603770611363,
+        "best": 0.6083799606163578
+      },
+      {
+        "gen": 4,
+        "avg_top5": 0.6039410692291443,
+        "best": 0.6083799606163578
+      },
+      {
+        "gen": 5,
+        "avg_top5": 0.620446621426354,
+        "best": 0.6709863597353141
+      },
+      {
+        "gen": 6,
+        "avg_top5": 0.6531858715209706,
+        "best": 0.6880974009454432
+      },
+      {
+        "gen": 7,
+        "avg_top5": 0.6754751927034175,
+        "best": 0.6880974009454432
+      },
+      {
+        "gen": 8,
+        "avg_top5": 0.6896703611636185,
+        "best": 0.6923075163245852
+      },
+      {
+        "gen": 9,
+        "avg_top5": 0.6921964303911037,
+        "best": 0.6923075163245852
+      },
+      {
+        "gen": 10,
+        "avg_top5": 0.692643285006731,
+        "best": 0.6939863597353141
+      },
+      {
+        "gen": 11,
+        "avg_top5": 0.6927037894526561,
+        "best": 0.6939863597353141
+      },
+      {
+        "gen": 12,
+        "avg_top5": 0.6928247983445063,
+        "best": 0.6939863597353141
+      },
+      {
+        "gen": 13,
+        "avg_top5": 0.6934358312628727,
+        "best": 0.6939863597353141
+      },
+      {
+        "gen": 14,
+        "avg_top5": 0.6939863597353141,
+        "best": 0.6939863597353141
+      },
+      {
+        "gen": 15,
+        "avg_top5": 0.6939863597353141,
+        "best": 0.6939863597353141
+      }
+    ],
+    "elapsed_seconds": 0.04764056205749512,
+    "final_pop_size": 25,
+    "best_chromosome": {
+      "id": "af6f0738",
+      "fitness": 0.6971286648340229,
+      "genes": 2,
+      "systems": [
+        "iching",
+        "gematria"
+      ]
+    }
+  },
+  "registered_systems": 70
+}

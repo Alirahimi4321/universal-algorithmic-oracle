@@ -1,0 +1,21 @@
+# Universal Algorithmic Oracle - Main Settings
+project:
+  name: "Universal Algorithmic Oracle"
+  version: "0.1.0"
+  phase: 1
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+
+paths:
+  data: "data"
+  archives: "data/archives"
+  lineages: "data/lineages"
+  experiments: "data/experiments"
+  generated_oracles: "data/generated_oracles"
+
+entropy:
+  hash_algorithm: "sha256"
+  seed_source: "time_hardware"
+  bit_stream_length: 256
